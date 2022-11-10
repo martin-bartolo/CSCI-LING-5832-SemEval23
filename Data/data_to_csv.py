@@ -1,10 +1,10 @@
 import pandas as pd
 
 # read the data in
-dev_judgement_df = pd.read_json('NER_DEV_JUDGEMENT.json')
-dev_preamble_df = pd.read_json('NER_DEV_PREAMBLE.json')
-train_judgement_df = pd.read_json('NER_TRAIN_JUDGEMENT.json')
-train_preamble_df = pd.read_json('NER_TRAIN_PREAMBLE.json')
+dev_judgement_df = pd.read_json('./rawdata/NER_DEV_JUDGEMENT.json')
+dev_preamble_df = pd.read_json('./rawdata/NER_DEV_PREAMBLE.json')
+train_judgement_df = pd.read_json('./rawdata/NER_TRAIN_JUDGEMENT.json')
+train_preamble_df = pd.read_json('./rawdata/NER_TRAIN_PREAMBLE.json')
 
 ### ----------------------------------------- ###
 def grab_values(results_listed):
@@ -49,16 +49,10 @@ def get_data(df):
         data['overall_text'].append(get_text(df.iloc[i].loc['data']))
 
         values_list = grab_values(df.iloc[i].loc['annotations'])
-        if len(values_list[0]) == 0:
-            data['start'].append(float('NaN'))
-            data['end'].append(float('NaN'))
-            data['text'].append('NONE')
-            data['label'].append('NONE')
-        else:
-            data['start'].append(values_list[0])
-            data['end'].append(values_list[1])
-            data['text'].append(values_list[2])
-            data['label'].append(values_list[3])
+        data['start'].append(values_list[0])
+        data['end'].append(values_list[1])
+        data['text'].append(values_list[2])
+        data['label'].append(values_list[3])
     return data
 
 ### ----------------------------------------- ###
@@ -69,7 +63,7 @@ train_judge = pd.DataFrame(get_data(train_judgement_df))
 train_preamble = pd.DataFrame(get_data(train_preamble_df))
 
 ## make the csv files
-dev_judge.to_csv('NER_DEV_judgement.csv')
-dev_preamble.to_csv('NER_DEV_preamble.csv')
-train_judge.to_csv('NER_TRAIN_judgement.csv')
-train_preamble.to_csv('NER_TRAIN_preamble.csv')
+dev_judge.to_csv('./cleandata/NER_DEV_judgement.csv')
+dev_preamble.to_csv('./cleandata/NER_DEV_preamble.csv')
+train_judge.to_csv('./cleandata/NER_TRAIN_judgement.csv')
+train_preamble.to_csv('./cleandata/NER_TRAIN_preamble.csv')
