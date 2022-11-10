@@ -1,4 +1,4 @@
-,Text
+,overall_text,start,end,text,label
 0,"$~40
 *    In The High Court Of Delhi At New Delhi
 
@@ -25,7 +25,7 @@ Hon'Ble Mr. Justice Najmi Waziri
 Najmi Waziri, J. (Oral)
 
 
-"
+","[17, 199, 286, 301, 323, 361, 436, 458, 578, 677, 705, 802, 816]","[49, 225, 295, 317, 352, 381, 446, 480, 594, 686, 715, 814, 828]","['High Court Of Delhi At New Delhi', 'Oriental Insurance Co Ltd.', 'S.P. Jain', 'Himanshu Gambhir', 'Nar\n                    Singh', 'Pushkar Singh Kanwal', 'Zaixhu Xie', 'Qualcomm India Pvt Ltd', 'Arvind Chaudhary', 'Ram Kawar', 'Amit Kumar', 'Najmi Waziri', 'Najmi Waziri']","['COURT', 'PETITIONER', 'LAWYER', 'LAWYER', 'LAWYER', 'LAWYER', 'RESPONDENT', 'RESPONDENT', 'LAWYER', 'LAWYER', 'LAWYER', 'JUDGE', 'JUDGE']"
 1,"1
 
                                                                  Reportable
@@ -66,7 +66,7 @@ Najmi Waziri, J. (Oral)
                                      J U D G M E N T
 
 
-"
+","[117, 328, 451, 701, 824, 1011, 1130]","[139, 354, 467, 726, 851, 1039, 1146]","['Supreme Court Of India', 'Parmar Samantsinh Umedsinh', 'State Of Gujarat', 'State Election Commission', 'Virendrasinh Mafaji Vaghela', 'Narendra Kumar Ambalal Ravat', 'State Of Gujarat']","['COURT', 'PETITIONER', 'RESPONDENT', 'PETITIONER', 'RESPONDENT', 'PETITIONER', 'RESPONDENT']"
 2,"R/Scr.A/9089/2017                                           Judgment
 
 
@@ -112,7 +112,7 @@ Ms Moxa Thakkar, App for the RESPONDENT(s) No. 1
 
                                 Oral Judgment
 
-"
+","[91, 236, 938, 1038, 1149, 1190, 1329]","[125, 249, 968, 1054, 1158, 1202, 1342]","['High Court Of Gujarat At Ahmedabad', 'J.B.Pardiwala', 'Harishankar Gayaprasad Jaiswal', 'State Of Gujarat', 'H N Sevak', 'Moxa Thakkar', 'J.B.Pardiwala']","['COURT', 'JUDGE', 'PETITIONER', 'RESPONDENT', 'LAWYER', 'LAWYER', 'JUDGE']"
 3,"High Court Of Judicature For Rajasthan Bench At
                                Jaipur
                             S.B. Civil First Appeal No.86/1979
@@ -137,7 +137,7 @@ Ms Moxa Thakkar, App for the RESPONDENT(s) No. 1
          3. The Collector, Jaipur District, Jaipur.
                                                                     ----Respondents
 
- "
+ ","[0, 163, 716, 752, 812]","[85, 187, 734, 794, 846]","['High Court Of Judicature For Rajasthan Bench At\n                               Jaipur', 'Bansidhar Sharma Devagya', 'State of Rajasthan', 'Commissioner, Devasthan, Rajasthan, Jaipur', 'Collector, Jaipur District, Jaipur']","['COURT', 'PETITIONER', 'RESPONDENT', 'RESPONDENT', 'RESPONDENT']"
 4,"1
 
                                      In The High Court Of Judicature At Madras
@@ -176,7 +176,7 @@ Ms Moxa Thakkar, App for the RESPONDENT(s) No. 1
 
                       5. Mr.Devaraj                              ...         Respondents
 
- Prayer in WP.No.15304 of 2019: Petition filed under Article 226 of the Constitution of India praying for the issuance of a writ of mandamus to http://www.judis.nic.in direct the respondents 1 to 4 to take necessary action against the illegal extraction of ground water without proper approval from authorities concerned at vacant land owned by 5th respondent which is situated at near Om Sakthi Hotel, Selliyamman Koil Street, Gopurasanallur, Kattupakkam, Chennai-56 by considering representation dated 19.04.2019. Mr.UM.Ravichandran for R5 (in WP.No.15304/19) Mr.K.Soundararajan for R4 & R5 (in WP.No.17384/2019) Mr.G.Janakiraman for R2 (in WP.No.18264/19) Mr.C.Prabakaran for R9 (in WP.No.18264/19) Mr. Rameshwar,TNEB - R6 (in WP.No.21299/19) Mr.L.Chandrakumar (Advocate Commissioner) Common Order"
+ Prayer in WP.No.15304 of 2019: Petition filed under Article 226 of the Constitution of India praying for the issuance of a writ of mandamus to http://www.judis.nic.in direct the respondents 1 to 4 to take necessary action against the illegal extraction of ground water without proper approval from authorities concerned at vacant land owned by 5th respondent which is situated at near Om Sakthi Hotel, Selliyamman Koil Street, Gopurasanallur, Kattupakkam, Chennai-56 by considering representation dated 19.04.2019. Mr.UM.Ravichandran for R5 (in WP.No.15304/19) Mr.K.Soundararajan for R4 & R5 (in WP.No.17384/2019) Mr.G.Janakiraman for R2 (in WP.No.18264/19) Mr.C.Prabakaran for R9 (in WP.No.18264/19) Mr. Rameshwar,TNEB - R6 (in WP.No.21299/19) Mr.L.Chandrakumar (Advocate Commissioner) Common Order","[47, 275, 402, 728, 888, 982, 1054, 1146, 1324, 1905, 1951, 2004, 2048, 2092, 2135]","[81, 286, 420, 736, 951, 1027, 1115, 1293, 1331, 1920, 1966, 2017, 2060, 2101, 2149]","['High Court Of Judicature At Madras', 'S.Manikumar', 'Subramonium Prasad', 'V.Sheela', 'District Collector,\n                      Thiruvallur District.', 'Tahsildar,\n                      Poonamallee.', 'Block Development Officer,\n                      Poonamallee.', 'Executive Engineer,\n                      Chennai Metrological Water Supply and Sewage Board,\n                      Chintadripet, Chennai - 600 002', 'Devaraj', 'UM.Ravichandran', 'K.Soundararajan', 'G.Janakiraman', 'C.Prabakaran', 'Rameshwar', 'L.Chandrakumar']","['COURT', 'JUDGE', 'JUDGE', 'PETITIONER', 'RESPONDENT', 'RESPONDENT', 'RESPONDENT', 'RESPONDENT', 'RESPONDENT', 'LAWYER', 'LAWYER', 'LAWYER', 'LAWYER', 'LAWYER', 'LAWYER']"
 5,"W.P.(MD).Nos.17981, 17982 and
                                                                17983 of 2017, 17297, 17298
                                                                          and 17299 of 2015
@@ -221,7 +221,7 @@ Ms Moxa Thakkar, App for the RESPONDENT(s) No. 1
                        Thoothukudi Government Medical College,
                        Thoothukudi District.                             ... Respondents
 
-"
+","[256, 470, 823, 975, 1211, 1388, 1488]","[290, 485, 840, 999, 1358, 1458, 1600]","['Madurai Bench Of Madras High Court', 'S.M.Subramaniam', 'G.Balasubramanian', 'Government of Tamil Nadu', 'Secretary/Additional Director,\n                       Department of Finance,\n                       Fort St. George,\n                       Chennai', 'Director of Medical Education,\n                       Kilpauk, Chennai', 'Dean,\n                       Thoothukudi Government Medical College,\n                       Thoothukudi District']","['COURT', 'JUDGE', 'PETITIONER', 'RESPONDENT', 'RESPONDENT', 'RESPONDENT', 'RESPONDENT']"
 6,"In The High Court Of Kerala At Ernakulam
                                Present
              The Honourable Mr. Justice Anil K.Narendran
@@ -283,7 +283,7 @@ Following:
                                Order
 
 
-"
+","[7, 120, 216, 515, 666, 807, 951, 1246, 1309, 1625, 1900]","[40, 136, 226, 525, 734, 875, 1023, 1259, 1335, 1637, 1916]","['High Court Of Kerala At Ernakulam', 'Anil K.Narendran', 'M.R.Anitha', 'Simon K.J.', 'Friends Arts Club,\n           Regd No E.R.30/73, Chirakkakam Village', 'Friends Arts Club,\n           Regd No E R 30/73, Chirakkakam Village', 'Friends Arts Club,\n           Regd No E.R 30/73, Chirakkakam, Varappuzha', 'Deepak Joy.K.', 'Mangamma @ Brejith Andrews', 'Ginu Andrews', 'Alexander Joseph']","['COURT', 'JUDGE', 'JUDGE', 'PETITIONER', 'PETITIONER', 'PETITIONER', 'PETITIONER', 'LAWYER', 'RESPONDENT', 'RESPONDENT', 'LAWYER']"
 7,"In The Court Of Ms. Bharti Garg,
      Metropolitan Magistrate­09, South­West District,
                 Dwarka Courts, New Delhi
@@ -323,7 +323,7 @@ Delhi.                                        .............Accused
 9.   Final judgment                    :     Acquitted
 
 State Vs. Manish @ Tolly     Cnr no. Dlsw020504172019                  Page no.1/8
- Judgment"
+ Judgment","[20, 38, 449, 562, 1438, 1448]","[31, 127, 454, 576, 1443, 1462]","['Bharti Garg', 'Metropolitan Magistrate\xad09, South\xadWest District,\n                Dwarka Courts, New Delhi', 'State', 'Manish @ Tolly', 'State', 'Manish @ Tolly']","['JUDGE', 'COURT', 'PETITIONER', 'RESPONDENT', 'PETITIONER', 'RESPONDENT']"
 8,"The Hon'Ble Sri Justice  M. Seetharama Murti          
 
 Writ Petition No.22851 of 2018
@@ -354,7 +354,7 @@ Counsel for the respondent no.5 : Sri N. Siva Reddy
 
 The Honble Sri Justice M.Seetharama Murti           
 Writ Petition No.22851 of 2018
-Order"
+Order","[25, 106, 143, 296, 429, 619]","[44, 120, 156, 314, 442, 637]","['M. Seetharama Murti', 'Bhaskara Wines', 'State of A.P.', 'K. Venugopal Reddy', 'N. Siva Reddy', 'M.Seetharama Murti']","['JUDGE', 'PETITIONER', 'RESPONDENT', 'LAWYER', 'LAWYER', 'JUDGE']"
 9,"1
 
                                                                                        Reportable
@@ -386,7 +386,7 @@ Order"
                                                Judgment
 
 
-"
+","[151, 332, 495]","[173, 351, 513]","['Supreme Court Of India', 'Tata Motors Limited', 'State Of Jharkhand']","['COURT', 'PETITIONER', 'RESPONDENT']"
 10,"In The High Court Of Judicature At Patna
          (From Residential Office Via Video Application)
                      Civil Writ Jurisdiction Case No.6237 of 2020
@@ -413,7 +413,7 @@ Order"
 
  Mr. Gyan Shankar, Adv. 
 
- For the State : Mr. Iqbal Asif Niazi, Ac to Gp-5 For the Intervenor : Mr. Raju Giri, Adv. ====================================================== Coram: Honourable Mr. Justice Rajeev Ranjan Prasad Cav Judgment"
+ For the State : Mr. Iqbal Asif Niazi, Ac to Gp-5 For the Intervenor : Mr. Raju Giri, Adv. ====================================================== Coram: Honourable Mr. Justice Rajeev Ranjan Prasad Cav Judgment","[7, 231, 749, 871, 975, 1067, 1271, 1296, 1340, 1370, 1412, 1466, 1567]","[40, 272, 763, 942, 1056, 1149, 1283, 1312, 1353, 1382, 1428, 1475, 1587]","['High Court Of Judicature At Patna', 'Cobra Industrial Security Forces (I) Ltd.', 'State of Bihar', 'Bihar School Examination Board Main Building, Sinha Library Road, Patna', 'Chairman Bihar School Examination Board, Main Building, Sinha Library Road, Patna', 'Secretary Bihar School Examination Board, Main Building, Sinha Library Road, Patna', 'Sanjay Singh', 'Nirbhay Prashant', 'Lalit Kishore', 'Gyan Shankar', 'Iqbal Asif Niazi', 'Raju Giri', 'Rajeev Ranjan Prasad']","['COURT', 'PETITIONER', 'RESPONDENT', 'RESPONDENT', 'RESPONDENT', 'RESPONDENT', 'LAWYER', 'LAWYER', 'LAWYER', 'LAWYER', 'LAWYER', 'LAWYER', 'JUDGE']"
 11,"1
 
 
@@ -439,7 +439,7 @@ Union Of India & Ors.             Respondent(S)
                       Order
 
 
-"
+","[74, 182, 265]","[96, 200, 279]","['Supreme Court Of India', 'Assam Public Works', 'Union Of India']","['COURT', 'PETITIONER', 'RESPONDENT']"
 12,"1
 
       Item No.62                                Court No. 14                             Section Ii-C
@@ -483,7 +483,7 @@ Union Of India & Ors.             Respondent(S)
                                                    O R D E R
 
 
-"
+","[221, 408, 575, 1049, 1178, 1247, 1316, 1386, 1456, 1531]","[269, 416, 580, 1061, 1192, 1260, 1329, 1400, 1475, 1542]","['S U P R E M E C O U R T O F            I N D I A', 'Rammaiah', 'State', 'Abhay S. Oka', 'M.P. Parthiban', 'A.S. Vairawan', 'R. Sudhakaran', 'Shalini Mishra', 'T. Hari Hara Sudhan', 'Vikash G.R.']","['COURT', 'PETITIONER', 'RESPONDENT', 'JUDGE', 'LAWYER', 'LAWYER', 'LAWYER', 'LAWYER', 'LAWYER', 'LAWYER']"
 13,"1                                                                      Ep No.5/2020
 
                  High Court Of Madhya Pradesh
@@ -504,7 +504,7 @@ Whether approved for reporting :
                                      Order
 
 
-"
+","[102, 260, 375, 486, 598, 647]","[175, 274, 388, 502, 612, 667]","['High Court Of Madhya Pradesh\n                               Bench Gwalior', 'G.S. Ahluwalia', 'Hemant Katare', 'O.P.S. Bhadoriya', 'Sankalp Sharma', 'Kushagra Raghuvanshi']","['COURT', 'JUDGE', 'PETITIONER', 'RESPONDENT', 'LAWYER', 'LAWYER']"
 14,"*      In The High Court Of Delhi At New Delhi
 
                                                               Judgment reserved on: 26.11.2021
@@ -537,7 +537,7 @@ Whether approved for reporting :
                                                               Judgment
 
 
-"
+","[14, 311, 498, 518, 679, 819, 913, 1020, 1205, 1225, 1386, 1527, 1621, 1724]","[46, 352, 510, 592, 684, 833, 926, 1061, 1217, 1299, 1391, 1539, 1634, 1736]","['High Court Of Delhi At New Delhi', 'Jsb Cargo And Freight Forwarder Pvt. Ltd.', 'Bharat Gupta', 'Gunjan\n                                                              Arora', 'State', 'Aashaa Tiwari,', 'Ashok Mahipal', 'Jsb Cargo And Freight Forwarder Pvt. Ltd.', 'Bharat Gupta', 'Gunjan\n                                                              Arora', 'State', 'Mukesh Kumar', 'Ashok Mahipal', 'Anu Malhotra']","['COURT', 'PETITIONER', 'LAWYER', 'LAWYER', 'RESPONDENT', 'LAWYER', 'LAWYER', 'PETITIONER', 'LAWYER', 'LAWYER', 'RESPONDENT', 'LAWYER', 'LAWYER', 'JUDGE']"
 15,"High Court Of Judicature At Allahabad
  
  
@@ -587,7 +587,7 @@ Hon'ble Naveen Srivastava,J.
 
 [Per Arvind Kumar Mishra-I, J.]
  
-"
+","[0, 315, 371, 470, 479, 497, 506, 543, 559, 572, 594, 615, 631, 645, 664, 674, 793, 872, 971, 989, 999, 1052, 1068, 1095, 1130, 1158]","[37, 354, 402, 478, 496, 505, 514, 558, 571, 585, 614, 630, 644, 663, 673, 690, 832, 903, 988, 999, 1016, 1067, 1081, 1114, 1147, 1177]","['High Court Of Judicature At Allahabad', 'Sun Tower Residents Welfare Association', 'Ghaziabad Development Authority', 'Prashant', 'Abhijeet Mukherji', 'Prashant', 'S.K. Pal', 'Ram Bilas Yadav', 'Anoop Tivedi', 'Anoop Trivedi', 'Adv.),Himanshu Tyagi', 'Kartikeya Saran', 'Rahul Agarwal', 'Rakesh Kumar Singh', 'S.Shekhar', 'Vrindavan Mishra', 'Sun Tower Residents Welfare Association', 'Ghaziabad Development Authority', 'Abhijeet Mukherji', 'S. Shekhar', ',Vrindavan Mishra', 'Ram Bilas Yadav', 'Tarun Agrawal', 'Arvind Kumar Mishra', 'Naveen Srivastava', 'Arvind Kumar Mishra']","['COURT', 'PETITIONER', 'RESPONDENT', 'LAWYER', 'LAWYER', 'LAWYER', 'LAWYER', 'LAWYER', 'LAWYER', 'LAWYER', 'LAWYER', 'LAWYER', 'LAWYER', 'LAWYER', 'LAWYER', 'LAWYER', 'PETITIONER', 'RESPONDENT', 'LAWYER', 'LAWYER', 'LAWYER', 'LAWYER', 'LAWYER', 'JUDGE', 'JUDGE', 'JUDGE']"
 16,"In The High Court Of Judicature At Patna
                     Civil Writ Jurisdiction Case No.6546 of 2017
      ======================================================
@@ -649,7 +649,7 @@ Hon'ble Naveen Srivastava,J.
  ... ... Respondent/s ====================================================== Appearance :
  (In Cwjc No. 6546 of 2017) For the Petitioner/s : Mr. Jitendra Kishore Verma Adv. Patna High Court Cwjc No.6546 of 2017 dt.02-11-2020 For the Respondent/s : Mr. Prasoon Sinha, Adv. (In Cwjc No. 2432 of 2017) For the Petitioner/s : Mr. Jitendra Kishore Verma Adv. For the Respondent/s : Mr. Yashraj Bhardhan, Adv. 
 
- ====================================================== Coram: Honourable Mr. Justice Mohit Kumar Shah Cav Judgment"
+ ====================================================== Coram: Honourable Mr. Justice Mohit Kumar Shah Cav Judgment","[7, 174, 393, 489, 575, 656, 922, 1117, 1204, 1285, 1388, 1480, 1561, 1642, 1995, 2159, 2229, 2288, 2343, 2397, 2452, 2814, 2958, 3192, 3378, 3500, 3594, 3897, 4004, 4078, 4133, 4244]","[40, 186, 446, 568, 649, 730, 952, 1170, 1278, 1381, 1473, 1554, 1635, 1673, 2008, 2186, 2280, 2335, 2389, 2444, 2525, 2835, 2978, 3213, 3412, 3591, 3620, 3919, 4017, 4100, 4149, 4260]","['High Court Of Judicature At Patna', 'Sanjay Singh', 'Patna Municipal Corporation, Mauryalok Complex, Patna', 'Municipal Commissioner, Patna Municipal Corporation at Mauryalok Complex, Patna', 'Vigilance Officer, Patna Municipal Corporation at Mauryalok Complex, Patna', 'Executive Officer, Patna Municipal Corporation at Mauryalok Complex, Patna', 'Arti Banerjee @ Arati Banarjee', 'Patna Municipal Corporation, Mauryalok Complex, Patna', 'Town Commissioner, Patna Municipal Corporation at Mauryalok Complex, Patna', 'Assistant Engineer, Nutan Rajdhani Anchal, Patna Municipal Corporation, Mauryalok Complex, Patna', 'Additional Town Commissioner, Patna Municipal Corporation at Mauryalok Complex, Patna', 'Vigilance Officer, Patna Municipal Corporation at Mauryalok Complex, Patna', 'Executive Officer, Patna Municipal Corporation at Mauryalok Complex, Patna', 'Maa Shambhavi Engicon Pvt. Ltd.', 'Prakash Kumar', 'Patna Municipal Corporation', 'Municipal Commissioner, Patna Municipal Corporation', 'Assistant Engineer, Patna Municipal Corporation', 'Vigilance Officer, Patna Municipal Corporation', 'Executive Engineer, Patna Municipal Corporation', 'Junior Engineer, Patna Municipal Corporation. Patna Municipal Corporation', 'Gajendra Mohan Mishra', 'Gunendra Mohan Misra', 'Nirendra Mohan Mishra', 'Patna Municipal Corporation, Patna', 'Patna Municipal Corporation, Patna Municipal Corporation, Maurya Lok Building, Patna 800001', '. Prakash Kumar @ Munna ji', 'Jitendra Kishore Verma', 'Prasoon Sinha', 'Jitendra Kishore Verma', 'Yashraj Bhardhan', 'Mohit Kumar Shah']","['COURT', 'PETITIONER', 'RESPONDENT', 'RESPONDENT', 'RESPONDENT', 'RESPONDENT', 'PETITIONER', 'RESPONDENT', 'RESPONDENT', 'RESPONDENT', 'RESPONDENT', 'RESPONDENT', 'RESPONDENT', 'RESPONDENT', 'PETITIONER', 'RESPONDENT', 'RESPONDENT', 'RESPONDENT', 'RESPONDENT', 'RESPONDENT', 'RESPONDENT', 'PETITIONER', 'PETITIONER', 'PETITIONER', 'RESPONDENT', 'RESPONDENT', 'RESPONDENT', 'LAWYER', 'LAWYER', 'LAWYER', 'LAWYER', 'JUDGE']"
 17,"In The High Court For The State Of Telangana
                                     At: Hyderabad
                                           Coram:
@@ -675,7 +675,7 @@ $ The State of Telangana, rep.by Public Prosecutor
  10. 1992 Supp (1) Scc 335
  11. 2020 Supreme (Ap) 348
  12. Criminal Petition No.5323 of 2009, decided on 17.09.2009
- 13. Criminal Petition No.15248 of 2016, decided on 26.10.2016 Kl,J Crl.P. No.152 of 2020 & batch Hon'Ble Sri Justice K. Lakshman Criminal Petition Nos.152, 153, 155 & 162 Of 2020 And 3498, 3500, 3509, 3514, 3768, 3879, 4046, 4070, 4077, 4098, 4099, 4100, 4102, 4110, 4119, 4140, 4141, 4151, 4157, 4178, 4182, 4187, 4194, 4216, 4230, 4247, 4249, 4251, 4258, 4262, 4277, 4361, 4405, 4415, 4542, 4612, 4615, 4622, 4632, 4640, 4681, 4727, 4775, 4825 & 5826 Of 2021, Common Order"
+ 13. Criminal Petition No.15248 of 2016, decided on 26.10.2016 Kl,J Crl.P. No.152 of 2020 & batch Hon'Ble Sri Justice K. Lakshman Criminal Petition Nos.152, 153, 155 & 162 Of 2020 And 3498, 3500, 3509, 3514, 3768, 3879, 4046, 4070, 4077, 4098, 4099, 4100, 4102, 4110, 4119, 4140, 4141, 4151, 4157, 4178, 4182, 4187, 4194, 4216, 4230, 4247, 4249, 4251, 4258, 4262, 4277, 4361, 4405, 4415, 4542, 4612, 4615, 4622, 4632, 4640, 4681, 4727, 4775, 4825 & 5826 Of 2021, Common Order","[7, 190, 330, 472, 643, 662, 688, 704, 732, 747, 776, 798, 821, 837, 850, 869, 886, 907, 1437]","[45, 201, 348, 490, 657, 683, 699, 726, 742, 771, 793, 816, 832, 845, 864, 881, 902, 929, 1448]","['High Court For The State Of Telangana\n', 'K. Lakshman', 'Mohd. Jameel Ahmed', 'State of Telangana', 'M.A.K. Mukheed', 'Gajanand Chakravarthy', 'K. Surender', 'Praveen Kumar Veerjala', 'P. Radhika', 'Srinivas Reddy Balakisti', 'C. Sunitha Kumari', 'Kondadi Ajay Kumar', 'S.M. Subhan', 'N. Arthi', 'Y. Bala Murali', 'Boggula Raju', 'S. Chandrasekhar', 'V. Yadukrishna Sainath', 'K. Lakshman']","['COURT', 'JUDGE', 'PETITIONER', 'RESPONDENT', 'LAWYER', 'LAWYER', 'LAWYER', 'LAWYER', 'LAWYER', 'LAWYER', 'LAWYER', 'LAWYER', 'LAWYER', 'LAWYER', 'LAWYER', 'LAWYER', 'LAWYER', 'LAWYER', 'JUDGE']"
 18,"In The High Court Of Judicature At Patna
                    Civil Writ Jurisdiction Case No.1566 of 2022
      ======================================================
@@ -696,7 +696,7 @@ $ The State of Telangana, rep.by Public Prosecutor
 6. The Station House Officer, Excise, Sitamarhi (Bihar). 
 
  ... ... Respondent/s ====================================================== Appearance :
- For the Petitioner/s : Mr.Uday Kumar, Advocate For the Respondent/s : Mr.Vikash Kumar (Sc 11) ====================================================== Coram: Honourable The Chief Justice and Honourable Mr. Justice S. Kumar Oral Judgment"
+ For the Petitioner/s : Mr.Uday Kumar, Advocate For the Respondent/s : Mr.Vikash Kumar (Sc 11) ====================================================== Coram: Honourable The Chief Justice and Honourable Mr. Justice S. Kumar Oral Judgment","[7, 168, 362, 496, 603, 671, 747, 823, 992, 1039, 1178]","[40, 179, 376, 592, 663, 736, 812, 871, 1002, 1051, 1186]","['High Court Of Judicature At Patna', 'Vimal Anand', 'State of Bihar', 'Principal Secretary, Registration, Excise and Prohibition Department, Government of Bihar, Patna', 'District Magistrate, Sitamarhi, District - Sitamarhi (Bihar)', 'Superintendent of Excise, Sitamarhi, District - Sitamarhi (Bihar)', 'Superintendent of Police, Sitamarhi, District - Sitamarhi (Bihar)', 'Station House Officer, Excise, Sitamarhi (Bihar)', 'Uday Kumar', 'Vikash Kumar', 'S. Kumar']","['COURT', 'PETITIONER', 'RESPONDENT', 'RESPONDENT', 'RESPONDENT', 'RESPONDENT', 'RESPONDENT', 'RESPONDENT', 'LAWYER', 'LAWYER', 'JUDGE']"
 19,"W. A. No. 464 of 2022        -1-
 
 
@@ -704,7 +704,7 @@ $ The State of Telangana, rep.by Public Prosecutor
                             Present
         The Honourable The Chief Justice Mr.S.Manikumar
 
- & The Honourable Mr.Justice Murali Purushothaman Thursday, The 7Th Day Of April 2022 / 17Th Chaithra, 1944 Wa No. 464 Of 2022 Against The Judgment"
+ & The Honourable Mr.Justice Murali Purushothaman Thursday, The 7Th Day Of April 2022 / 17Th Chaithra, 1944 Wa No. 464 Of 2022 Against The Judgment","[53, 167, 209]","[86, 178, 229]","['High Court Of Kerala At Ernakulam', 'S.Manikumar', 'Murali Purushothaman']","['COURT', 'JUDGE', 'JUDGE']"
 20,"Honble Sri Justice D.V.S.S. Somayajulu         
 
 As No.936 of 1999 
@@ -758,7 +758,7 @@ Counsel for the Respondents: Sri B. Sudhakar Reddy
 
 Honble Sri Justice D.V.S.S. Somayajulu         
 A.S.No.936 of 1999 
-Judgment"
+Judgment","[19, 82, 145, 248, 297, 354, 1099]","[38, 109, 160, 262, 314, 372, 1118]","['D.V.S.S. Somayajulu', 'Gollapinni Reddy Balaprasad', 'Kota Venkataiah', 'G. Ramesh Babu', 'B. Sudhakar Reddy', 'Keerthi Kiran Kota', 'D.V.S.S. Somayajulu']","['JUDGE', 'PETITIONER', 'RESPONDENT', 'LAWYER', 'LAWYER', 'LAWYER', 'JUDGE']"
 21,"Reportable
 
 
@@ -784,7 +784,7 @@ Judgment"
                                             Judgment
 
 
-"
+","[54, 297, 435]","[76, 329, 465]","['Supreme Court Of India', 'Action Ispat And Power Pvt. Ltd.', 'Shyam Metalics And Energy Ltd.']","['COURT', 'PETITIONER', 'RESPONDENT']"
 22,"1
                                         The High Court Of Madhya Pradesh
                                                        Ma No.534/2017
@@ -803,7 +803,7 @@ Judgment"
 
  Shri R.P. Gupta, Advocate for respondents no.1 to 4 in both appeals. 
 
- "
+ ","[46, 184, 217, 409, 441, 566, 702, 816]","[74, 212, 230, 436, 454, 578, 721, 826]","['High Court Of Madhya Pradesh', 'New India Assurance Co. Ltd.', 'Avadesh Kumar', 'Oriental Insurance Co. Ltd.', 'Avadesh Kumar', 'B.K. Agrawal', 'S.N. Gajendragadkar', 'R.P. Gupta']","['COURT', 'PETITIONER', 'RESPONDENT', 'PETITIONER', 'RESPONDENT', 'LAWYER', 'LAWYER', 'LAWYER']"
 23,"High Court Of Judicature At Allahabad
  
  
@@ -857,7 +857,7 @@ Hon'ble Ramesh Sinha,J.
 
 Hon'ble Dinesh Kumar Singh-I,J. 
 
-"
+","[0, 205, 235, 288, 308, 352, 366, 377, 389, 415, 429, 442, 459, 470, 486, 498, 512, 527, 540, 552, 664, 698, 753, 768, 779, 846, 875, 901]","[37, 218, 249, 307, 323, 365, 376, 388, 414, 428, 441, 458, 469, 485, 497, 511, 526, 539, 551, 576, 677, 712, 767, 778, 798, 858, 887, 919]","['High Court Of Judicature At Allahabad', 'State Of U.P.', 'Raghuvir Singh', 'A.G.A.,Laxman Singh', 'Murlidhar Misra', 'S.P.S. Raghav', 'A.K. Singh', 'Ajay Sengar', 'Arvind Kumar Srivastavaac', 'Brajesh Sahai', 'Brijesh Saha', 'C.H.Singh Gautam', 'D.V. Singh', 'Gyanendra Kumar', 'J.S. Sengar', 'Kapil Rathore', 'Lav Srivastava', 'Mukhtar Alam', 'Rohan Gupta', 'Vikram Dev Singh Rathore', 'Rajeev Shukla', 'Raghubir Singh', 'Rajeev Trivedi', 'P.N. Misra', 'Rajiv Lochan Shukla', 'Laxman Singh', 'Ramesh Sinha', 'Dinesh Kumar Singh']","['COURT', 'PETITIONER', 'RESPONDENT', 'LAWYER', 'LAWYER', 'LAWYER', 'LAWYER', 'LAWYER', 'LAWYER', 'LAWYER', 'LAWYER', 'LAWYER', 'LAWYER', 'LAWYER', 'LAWYER', 'LAWYER', 'LAWYER', 'LAWYER', 'LAWYER', 'LAWYER', 'PETITIONER', 'RESPONDENT', 'LAWYER', 'LAWYER', 'LAWYER', 'LAWYER', 'JUDGE', 'JUDGE']"
 24,"1
                          Bharat Singh Vs. State of M.P. (Cr.A. No. 317/2011)
                    Bali Singh @ Ballu Vs. State of M.P. (Cr.A. No. 342/2011)
@@ -905,7 +905,7 @@ Approved for Reporting         :
 
 Per G.S. Ahluwalia J.
 
-"
+","[27, 44, 98, 121, 160, 268, 327, 425, 504, 581, 655, 714, 777, 1004, 1021, 1079, 1102, 1235]","[39, 57, 116, 134, 212, 282, 351, 437, 517, 599, 668, 724, 790, 1016, 1034, 1097, 1115, 1249]","['Bharat Singh', 'State of M.P.', 'Bali Singh @ Ballu', 'State of M.P.', 'High Court Of Madhya Pradesh\n          Gwalior Bench', 'G.S. Ahluwalia', 'Rajeev Kumar Shrivastava', 'Bharat Singh', 'State of M.P.', 'Bali Singh @ Ballu', 'State of M.P.', 'Ashok Jain', 'A.K.Nirankari', 'Bharat Singh', 'State of M.P.', 'Bali Singh @ Ballu', 'State of M.P.', 'G.S. Ahluwalia']","['PETITIONER', 'RESPONDENT', 'PETITIONER', 'RESPONDENT', 'COURT', 'JUDGE', 'JUDGE', 'PETITIONER', 'RESPONDENT', 'PETITIONER', 'RESPONDENT', 'LAWYER', 'LAWYER', 'PETITIONER', 'RESPONDENT', 'PETITIONER', 'RESPONDENT', 'JUDGE']"
 25,"The Honble Sri Justice N.Balayogi        
 
 Criminal Petition No. 4020 Of  2011    
@@ -939,7 +939,7 @@ Honourable Sri Justice N. Balayogi
 
 Criminal Petition No.4020 of 2011    
 
-Order"
+Order","[23, 100, 227, 375, 467, 791]","[33, 121, 250, 390, 476, 802]","['N.Balayogi', 'Nagarjun Valluripalli', 'State of Andhra Pradesh', 'Mavidi Rama Rao', 'P.Sri Ram', 'N. Balayogi']","['JUDGE', 'PETITIONER', 'RESPONDENT', 'LAWYER', 'LAWYER', 'JUDGE']"
 26,"1
 
 
@@ -958,7 +958,7 @@ Order"
                                                        O R D E R
 
 
-"
+","[53, 229, 386]","[75, 237, 404]","['Supreme Court Of India', 'S.Ganesh', 'State Of Karnataka']","['COURT', 'PETITIONER', 'RESPONDENT']"
 27,"1
 
      Item No.1501                     Court No.4                   Section Pil-W
@@ -978,7 +978,7 @@ Order"
      With
      Conmt.Pet.(C) No. 52/2013 In W.P.(C) No. 318/2006 (Pil-W)
 
-     "
+     ","[130, 308, 486]","[174, 396, 500]","['S U P R E M E C O U R T O F        I N D I A', 'National Campaign Committee For Central Legislation\n     On Construction Labour (Ncc Cl)', 'Union Of India']","['COURT', 'PETITIONER', 'RESPONDENT']"
 28,"In The High Court Of Delhi At New Delhi
 
                                                    Judgment delivered on: March 04, 2022
@@ -1006,7 +1006,7 @@ Order"
                                                   Judgment
 
 
-"
+","[7, 225, 419, 508, 612, 800, 891, 910, 1062, 1081, 1253]","[39, 252, 428, 521, 624, 811, 903, 982, 1074, 1153, 1268]","['High Court Of Delhi At New Delhi', 'Ifci Retirees Welfare Forum', 'H.L. Tiku', 'Yashmeet Kaur', 'Ifci Limited', 'Dhruv Mehta', 'Amish Tandon', 'Ayush\n                                                            Beotra', 'Amish Tandon', 'Ayush\n                                                            Beotra', 'V. Kameswar Rao']","['COURT', 'PETITIONER', 'LAWYER', 'LAWYER', 'RESPONDENT', 'LAWYER', 'LAWYER', 'LAWYER', 'LAWYER', 'LAWYER', 'JUDGE']"
 29,"High Court Of Judicature At Allahabad
  
  
@@ -1040,7 +1040,7 @@ Counsel for Opposite Party :- G.A.
 Hon'ble Dinesh Kumar Singh-I,J.
 
 
-"
+","[0, 362, 401, 455, 521]","[37, 380, 414, 470, 539]","['High Court Of Judicature At Allahabad', 'R.E. Kil Roy Rocky', 'State Of U.P.', 'Mohammad Waseem', 'Dinesh Kumar Singh']","['COURT', 'PETITIONER', 'RESPONDENT', 'LAWYER', 'JUDGE']"
 30,"Honble The Acting Chief Justice Ramesh Ranganathan And  The Honble Smt Justice Kongara Vijaya Lakshmi                            
 
 Contempt Appeal (SR).No.14228 of 2018  
@@ -1073,7 +1073,7 @@ The Honble Smt Justice Kongara Vijaya Lakshmi
 
 Contempt Appeal (SR).No.14228 of 2018  
 
-Judgment"
+Judgment","[32, 79, 188, 269, 389, 595, 659]","[50, 101, 197, 287, 407, 613, 681]","['Ramesh Ranganathan', 'Kongara Vijaya Lakshmi', 'B.R.Meena', 'Arun Kumar Agarwal', 'Eranki Phani Kumar', 'Ramesh Ranganathan', 'Kongara Vijaya Lakshmi']","['JUDGE', 'JUDGE', 'PETITIONER', 'RESPONDENT', 'LAWYER', 'JUDGE', 'JUDGE']"
 31,"In The High Court Of Karnataka
                    Dharwad Bench
 
@@ -1133,7 +1133,7 @@ And:
                              ---
 
 
- This Mfa Is Filed U/S 173(1) Of Mv Act Against The Judgment"
+ This Mfa Is Filed U/S 173(1) Of Mv Act Against The Judgment","[7, 175, 737, 996, 1077, 1186, 1287]","[63, 187, 787, 1016, 1085, 1194, 1307]","['High Court Of Karnataka\n                   Dharwad Bench', 'K. Natarajan', 'Divisional Manager\nUnited India Insurance Co. Ltd.', 'Rajashekhar S. Arani', 'Puttappa', 'Yallavva', 'Suresh Laxman Vadoni']","['COURT', 'JUDGE', 'PETITIONER', 'LAWYER', 'RESPONDENT', 'RESPONDENT', 'RESPONDENT']"
 32,"1
 
 
@@ -1239,7 +1239,7 @@ The Court Pronounced The Following:
                            Order
 
 
-"
+","[16, 174, 247, 443, 499, 697, 896, 1117, 1282, 1529, 1596]","[52, 185, 259, 455, 558, 752, 915, 1192, 1293, 1542, 1609]","['High Court Of Karnataka At Bengaluru', 'K.Natarajan', 'K. Dhananjay', 'K. Dhananjay', 'Cabinet Secretary For The\n       Hon,Ble President Of India', 'Secretary For The\n       Chief Information Commissioner', 'Divya Prakash Sinha', 'Special Public Prosecutor For\n     Karnataka State By Station House Officer', 'A. Thomeena', 'Anupama Hegde', 'Mahesh Shetty']","['COURT', 'JUDGE', 'PETITIONER', 'LAWYER', 'RESPONDENT', 'RESPONDENT', 'RESPONDENT', 'RESPONDENT', 'RESPONDENT', 'LAWYER', 'LAWYER']"
 33,"High Court Of Judicature At Allahabad
  
  
@@ -1282,7 +1282,7 @@ Hon'ble Suneet Kumar, J
  
 
 
- "
+ ","[0, 87, 158, 309, 350, 378, 429, 485, 591, 659, 761, 797, 838, 862]","[37, 117, 172, 322, 371, 390, 441, 495, 603, 673, 772, 812, 850, 877]","['High Court Of Judicature At Allahabad', 'U.P. Public Service Commission', 'Union of India', 'Shashi Nandan', 'Kashif \t\t\t      Zaidi', 'Udyan Nandan', 'Manish Goyal', 'A.K. Goyal', 'Gyan Prakash', 'Vinay K. Singh', 'Alok Mishra', 'Dilip B Bhosale', 'Suneet Kumar', 'Dilip B Bhosale']","['COURT', 'PETITIONER', 'RESPONDENT', 'LAWYER', 'LAWYER', 'LAWYER', 'LAWYER', 'LAWYER', 'LAWYER', 'LAWYER', 'LAWYER', 'JUDGE', 'JUDGE', 'JUDGE']"
 34,"In The High Court Of Punjab And Haryana
                   At Chandigarh
 
@@ -1299,7 +1299,7 @@ State of Haryana and others
 
 Coram: Hon'Ble Mr. Justice Mahabir Singh Sindhu
 
-"
+","[7, 222, 369, 508]","[71, 234, 385, 528]","['High Court Of Punjab And Haryana\n                  At Chandigarh', 'Kulbir Singh', 'State of Haryana', 'Mahabir Singh Sindhu']","['COURT', 'PETITIONER', 'RESPONDENT', 'JUDGE']"
 35,"1
 
                                                                                        Reportable
@@ -1328,7 +1328,7 @@ Coram: Hon'Ble Mr. Justice Mahabir Singh Sindhu
                                                  Judgment
 
 
-"
+","[143, 316, 473]","[165, 327, 487]","['Supreme Court Of India', 'Noel Harper', 'Union Of India']","['COURT', 'PETITIONER', 'RESPONDENT']"
 36,"1
             The High Court Of Madhya Pradesh
           Cr.A. No. 397 of 2005 Nathu Singh Vs. State of M.P.
@@ -1357,7 +1357,7 @@ Shri M.K. Choudhary, Advocate for the complainant.
 ------------------------------------------------------------------------------------
 
 
-"
+","[18, 79, 95, 141, 161, 207, 224, 254, 344, 361, 417, 433, 475, 495, 537, 554, 575, 643, 681, 697, 750, 784, 826, 875, 943]","[46, 90, 108, 156, 174, 219, 237, 325, 358, 379, 428, 446, 490, 508, 549, 567, 586, 655, 692, 709, 760, 799, 840, 886, 957]","['High Court Of Madhya Pradesh', 'Nathu Singh', 'State of M.P.', 'Ghanshyam Singh', 'State of M.P.', 'Ramvir Singh', 'State of M.P.', 'High Court Of Madhya Pradesh\n\n                            Bench Gwalior', 'G.S. Ahluwalia', 'Rajeev Shrivastava', 'Nathu Singh', 'State of M.P.', 'Ghanshyam Singh', 'State of M.P.', 'Ramvir Singh', 'State of M.P.', 'V.K. Saxena', 'Ayush Saxena', 'Nathu Singh', 'Ramvir\nSingh', 'Atul Gupta', 'Ghanshyam Singh', 'B.P.S. Chouhan', 'R.K. Sharma', 'M.K. Choudhary']","['COURT', 'PETITIONER', 'RESPONDENT', 'PETITIONER', 'RESPONDENT', 'PETITIONER', 'RESPONDENT', 'COURT', 'JUDGE', 'JUDGE', 'PETITIONER', 'RESPONDENT', 'PETITIONER', 'RESPONDENT', 'PETITIONER', 'RESPONDENT', 'LAWYER', 'LAWYER', 'LAWYER', 'LAWYER', 'LAWYER', 'LAWYER', 'LAWYER', 'LAWYER', 'LAWYER']"
 37,"1
 
      Item No.17+32                    Court No.2                Section Ii
@@ -1429,7 +1429,7 @@ For Respondent(s)
                              O R D E R
 
 
-"
+","[109, 453, 593, 1615, 1677, 1739, 1835, 1903, 1981, 2042, 2106, 2174, 2237]","[150, 468, 625, 1631, 1693, 1766, 1846, 1922, 1996, 2060, 2127, 2192, 2252]","['S U P R E M E C O U R T O F     I N D I A', 'Rabindra Mishra', 'Chhotai Yadav @ Chhote Lal Yadav', 'Uday Umesh Lalit', 'S. Ravindra Bhat', 'Pamidighantam Sri Narasimha', 'Indu Marwah', 'Jitendar Kr. Sharma', 'Shrikant Prasad', 'Pabitra Kr. Biswal', 'Prahlad Narayan Singh', 'Tanuj Bagga Sharma', 'Ravindra Mishra']","['COURT', 'PETITIONER', 'RESPONDENT', 'JUDGE', 'JUDGE', 'JUDGE', 'LAWYER', 'LAWYER', 'LAWYER', 'LAWYER', 'LAWYER', 'LAWYER', 'LAWYER']"
 38,"Item No.107                                     Court No.9                    Section Iii
 
                                        S U P R E M E C O U R T O F          I N D I A
@@ -1477,7 +1477,7 @@ For Respondent(s)
                                                 O R D E R
 
 
-"
+","[130, 334, 500, 886, 946, 1034, 1104, 1172, 1241, 1331, 1400, 1470, 1544, 1615, 1682, 1753, 1821, 1895]","[176, 345, 518, 897, 961, 1048, 1116, 1185, 1253, 1345, 1412, 1486, 1558, 1624, 1695, 1763, 1837, 1908]","['S U P R E M E C O U R T O F          I N D I A', 'Biswas Nair', 'Shinie Biswas Nair', 'N.V. Ramana', 'S. Abdul Nazeer', 'Ashutosh Dubey', 'Piyush Singh', 'Vaibhav Tyagi', 'Aditya Singh', 'Ajit Pudussery', 'Aditya Singh', 'Anirban Tripathi', 'Ashutosh Dubey', 'J. Kurian', 'Rajshri Dubey', 'V.S. Rawat', 'Abhishek Chauhan', 'Sushil Pandey']","['COURT', 'PETITIONER', 'RESPONDENT', 'JUDGE', 'JUDGE', 'LAWYER', 'LAWYER', 'LAWYER', 'LAWYER', 'LAWYER', 'LAWYER', 'LAWYER', 'LAWYER', 'LAWYER', 'LAWYER', 'LAWYER', 'LAWYER', 'LAWYER']"
 39,"High Court Of Judicature At Allahabad
  
  
@@ -1509,7 +1509,7 @@ Hon'ble Shashi Kant,J.
 
 Hon'ble Ajay Bhanot,J. 
 
-"
+","[0, 153, 193, 234, 250, 262, 288, 300, 321, 331, 345, 413, 438]","[37, 176, 206, 248, 260, 287, 299, 320, 330, 344, 356, 424, 449]","['High Court Of Judicature At Allahabad', 'Girish Chandra Bajpayee', 'State Of U.P.', 'Mayank Bhushan', 'A.K.Mishra', 'Abhishek Kumar Srivastava', 'Ashok Mehta', 'Bhupendra Nath Singh', 'D.P.Singh', 'Sudeep Pathak', 'V.C. Mishra', 'Shashi Kant', 'Ajay Bhanot']","['COURT', 'PETITIONER', 'RESPONDENT', 'LAWYER', 'LAWYER', 'LAWYER', 'LAWYER', 'LAWYER', 'LAWYER', 'LAWYER', 'LAWYER', 'JUDGE', 'JUDGE']"
 40,"Reportable
                                       In The Supreme Court Of India
                                        Civil Appellate Jurisdiction
@@ -1536,7 +1536,7 @@ Hon'ble Ajay Bhanot,J.
                                                   Judgment
 
 
-"
+","[56, 244, 444]","[78, 267, 465]","['Supreme Court Of India', 'Dharmaji Shankar Shinde', 'Rajaram Shripad Joshi']","['COURT', 'PETITIONER', 'RESPONDENT']"
 41,"Reportable
 
                                  In The Supreme Court Of India
@@ -1555,7 +1555,7 @@ Hon'ble Ajay Bhanot,J.
                                              Judgment
 
 
-"
+","[52, 216, 356]","[74, 235, 374]","['Supreme Court Of India', 'Neetu Kumar Nagaich', 'State Of Rajasthan']","['COURT', 'PETITIONER', 'RESPONDENT']"
 42,"1
 
                                                                        Reportable
@@ -1608,7 +1608,7 @@ Reason:
                                              Judgment
 
 
-"
+","[120, 268, 402]","[142, 284, 416]","['Supreme Court Of India', 'Lalit Kumar Jain', 'Union Of India']","['COURT', 'PETITIONER', 'RESPONDENT']"
 43,"Civil Revision no.4211 of 2018                                                1
 
 In The Punjab & Haryana High Court At Chandigarh
@@ -1635,7 +1635,7 @@ Present:      Mr. Surjit Singh Salar, Advocate,
 Amol Rattan Singh, J.
 
 
- "
+ ","[88, 259, 417, 538, 575, 640]","[129, 282, 428, 555, 593, 657]","['Punjab & Haryana High Court At Chandigarh', 'Parvinder Singh @ Pinda', 'Didar Singh', 'Amol Rattan Singh', 'Surjit Singh Salar', 'Amol Rattan Singh']","['COURT', 'PETITIONER', 'RESPONDENT', 'JUDGE', 'LAWYER', 'JUDGE']"
 44,"In The High Court Of Judicature At Madras
 
                                                 Dated : 22.01.2021
@@ -1731,7 +1731,7 @@ https://www.mhc.tn.gov.in/judis/
                        Govt. of Tamil Nadu
                        Fort St. George, Chennai – 600 009.        ... Respondents
 
- "
+ ","[7, 232, 342, 767, 1265, 1548, 1743, 1952, 2135, 2327, 2487, 2696, 2924, 3180, 3336]","[41, 244, 432, 860, 1309, 1559, 1776, 1969, 2154, 2340, 2511, 2709, 2949, 3199, 3359]","['High Court Of Judicature At Madras', 'M.Govindaraj', 'Five Member Committee of Employees\n                      of Appu Hotels Limited at Chennai', 'Five Member Committee of Employees\n                      of Appu Hotels Limited at Coimbatore', 'Tourism Finance Corporation of India Limited', 'Indian Bank', 'Idbi Trusteeship Services Limited', 'Idbi Bank Limited', 'State Bank of India', 'Edelweiss Arc', 'Allium Finance Pvt. Ltd.', 'Bank of India', 'Radhakrishnan Dharmarajan', 'Appu Hotels Limited', 'Secretary to Government']","['COURT', 'JUDGE', 'PETITIONER', 'PETITIONER', 'RESPONDENT', 'RESPONDENT', 'RESPONDENT', 'RESPONDENT', 'RESPONDENT', 'RESPONDENT', 'RESPONDENT', 'RESPONDENT', 'RESPONDENT', 'RESPONDENT', 'RESPONDENT']"
 45,"In The Income Tax Appellate Tribunal
                                          Kolkata 'A' Bench, Kolkata
 
@@ -1757,7 +1757,7 @@ https://www.mhc.tn.gov.in/judis/
                                                     Order
 
 
-"
+","[7, 121, 161, 353, 468, 712, 776]","[104, 135, 182, 416, 492, 725, 787]","[""Income Tax Appellate Tribunal\n                                         Kolkata 'A' Bench, Kolkata"", 'Sudhakar Reddy', 'S.S. Viswanethra Ravi', 'Deputy Commissioner of Income Tax, Central Circle-2(2), Kolkata', 'Orissa Metaliks Pvt. Ltd', 'A.K. Tulsiyan', 'Radhe Shyam']","['COURT', 'JUDGE', 'JUDGE', 'PETITIONER', 'RESPONDENT', 'LAWYER', 'LAWYER']"
 46,"The Honble Sri Justice Sanjay Kumar And The Honble Sri Justice T.Amarnath Goud                    
 
 C.C.C.A. No.94 Of 2002   
@@ -1802,7 +1802,7 @@ C.C.C.A.No.94 Of 2002
 J U D G M E N T 
 
 
-"
+","[23, 63, 140, 196, 270, 313, 412, 459, 508, 923, 975]","[35, 78, 158, 215, 280, 329, 424, 473, 521, 935, 990]","['Sanjay Kumar', 'T.Amarnath Goud', 'Suresh Chukkapalli', 'S.Ali Abbas Hussain', 'Vivek Jain', 'B.Vijaysen Reddy', 'Sunil B.Ganu', 'Manjiri S.Ganu', 'V.Manohar Rao', 'Sanjay Kumar', 'T.Amarnath Goud']","['JUDGE', 'JUDGE', 'PETITIONER', 'RESPONDENT', 'LAWYER', 'LAWYER', 'LAWYER', 'LAWYER', 'LAWYER', 'JUDGE', 'JUDGE']"
 47,"High Court Of Judicature For Rajasthan
                    Bench At Jaipur
 
@@ -1822,7 +1822,7 @@ Resident Of H. No. A2/12, Sector-22, Pratap Nagar, Jaipur-
 Rajasthan, Jaipur, Rajasthan
                                                                     ----Respondents
 
-"
+","[0, 128, 396, 543, 693]","[73, 144, 414, 677, 751]","['High Court Of Judicature For Rajasthan\n                   Bench At Jaipur', 'Dalip Kumar Targ', 'State Of Rajasthan', 'Chief     Engineer         (Administration),         Public    Health\n       Engineering Department, 2 Civil Lines, Jal Bhawan, Jaipur', 'Secretary, Department of Personnel Government of\nRajasthan']","['COURT', 'PETITIONER', 'RESPONDENT', 'RESPONDENT', 'RESPONDENT']"
 48,"In The High Court Of Karnataka At Bengaluru
 
     Dated This The 24Th Day Of May, 2019
@@ -1945,7 +1945,7 @@ Day, The Court Made The Following:
                          Order
 
 
-"
+","[7, 138, 291, 431, 569, 700, 773, 877, 960, 1097, 1177, 1637, 1677, 1941, 2232]","[43, 159, 307, 444, 582, 711, 780, 888, 972, 1108, 1189, 1646, 1691, 1953, 2244]","['High Court Of Karnataka At Bengaluru', 'Ashok G. Nijagannavar', 'Nazneen Khaleeli', 'Atha Khaleeli', 'Zeeba Moosavi', 'Shahla Raza', 'Soraiya', 'Zia Khaleli', 'Anwar Hassan', 'Taj Sultana', 'Syedi Hassan', 'Raghunath', 'Siraj And Renu', 'K.S.Ponnappa', 'K.S.Ponnappa']","['COURT', 'JUDGE', 'PETITIONER', 'PETITIONER', 'PETITIONER', 'PETITIONER', 'PETITIONER', 'PETITIONER', 'PETITIONER', 'PETITIONER', 'PETITIONER', 'LAWYER', 'RESPONDENT', 'RESPONDENT', 'LAWYER']"
 49,"In The High Court At Calcutta
                           Ordinary Original Civil Jurisdiction
                                    Original Side
@@ -1971,7 +1971,7 @@ For the Defendant/Respondent           : Mr.   Jayanta Kr. Mitra, Sr. Adv.,
 
  Mr. Debnath Ghosh, Adv., Mr. Sayan Roychowdhury, Adv., Mr. Gautam Kr. Roy, Adv., Mr. Sourav Jana, Adv., Mr. Gopal Das, Adv. 
 
- "
+ ","[7, 171, 322, 418, 485, 561, 629, 700, 765, 831, 899, 934, 959, 989, 1015, 1038]","[29, 181, 340, 436, 502, 574, 645, 710, 776, 844, 916, 947, 977, 1003, 1026, 1047]","['High Court At Calcutta', 'Soumen Sen', 'La Opala R.G. Ltd.', 'Cello Plast & Ors.', 'Pratap Chatterjee', 'Sayantan Basu', 'Prithwiraj Sinha', 'Tanmoy Roy', 'Manoj Gupta', 'Abhiroop Dhar', 'Jayanta Kr. Mitra', 'Debnath Ghosh', 'Sayan Roychowdhury', 'Gautam Kr. Roy', 'Sourav Jana', 'Gopal Das']","['COURT', 'JUDGE', 'PETITIONER', 'RESPONDENT', 'LAWYER', 'LAWYER', 'LAWYER', 'LAWYER', 'LAWYER', 'LAWYER', 'LAWYER', 'LAWYER', 'LAWYER', 'LAWYER', 'LAWYER', 'LAWYER']"
 50,"Crl.A.(MD)No.137 of 2015
                                                                           and Crl.R.C.(MD)No.248 of 2015
 
@@ -2000,7 +2000,7 @@ For the Defendant/Respondent           : Mr.   Jayanta Kr. Mitra, Sr. Adv.,
                   Dindigul District.
                   (Cr.No.239 of 2003)                                     ... Respondent
 
- "
+ ","[171, 408, 703, 873]","[205, 420, 712, 878]","['Madurai Bench Of Madras High Court', 'B.Pugalendhi', 'Nagarajan', 'State']","['COURT', 'JUDGE', 'PETITIONER', 'RESPONDENT']"
 51,"1
 
 
@@ -2036,7 +2036,7 @@ For the Defendant/Respondent           : Mr.   Jayanta Kr. Mitra, Sr. Adv.,
                                               Judgment
 
 
-"
+","[135, 309, 430]","[157, 340, 455]","['Supreme Court Of India', 'Central Bureau Of Investigation', 'Mohd. Parvez Abdul Kayuum']","['COURT', 'PETITIONER', 'RESPONDENT']"
 52,"In The High Court Of Judicature At Patna
                       Civil Writ Jurisdiction Case No.7999 of 2021
      ======================================================
@@ -2047,7 +2047,7 @@ For the Defendant/Respondent           : Mr.   Jayanta Kr. Mitra, Sr. Adv.,
 2. The District Magistrate Patna
 3. The Assistant Excise Commissioner, Patna
 4. The S.H.O. Athmalgola Police Station, District- Patna ... ... Respondent/s ====================================================== Appearance :
- For the Petitioner/s : Mr.Manoj Kumar Pandey For the Respondent/s : Mr.Vivek Prasad Gp 7 ====================================================== Coram: Honourable The Chief Justice and Honourable Mr. Justice S. Kumar Oral Judgment"
+ For the Petitioner/s : Mr.Manoj Kumar Pandey For the Respondent/s : Mr.Vivek Prasad Gp 7 ====================================================== Coram: Honourable The Chief Justice and Honourable Mr. Justice S. Kumar Oral Judgment","[7, 171, 322, 391, 424, 468, 634, 679, 815]","[40, 182, 336, 416, 460, 517, 652, 691, 823]","['High Court Of Judicature At Patna', 'Suraj Kumar', 'State of Bihar', 'District Magistrate Patna', 'Assistant Excise Commissioner, Patna', 'S.H.O. Athmalgola Police Station, District- Patna', 'Manoj Kumar Pandey', 'Vivek Prasad', 'S. Kumar']","['COURT', 'PETITIONER', 'RESPONDENT', 'RESPONDENT', 'RESPONDENT', 'RESPONDENT', 'LAWYER', 'LAWYER', 'JUDGE']"
 53,"1
 
                                                                                         Reportable
@@ -2071,7 +2071,7 @@ For the Defendant/Respondent           : Mr.   Jayanta Kr. Mitra, Sr. Adv.,
                                                    J U D G M E N T
 
 
-"
+","[153, 406, 570]","[175, 431, 581]","['Supreme Court Of India', 'State Of Himachal Pradesh', 'Manga Singh']","['COURT', 'PETITIONER', 'RESPONDENT']"
 54,"1
 
 
@@ -2094,7 +2094,7 @@ For the Defendant/Respondent           : Mr.   Jayanta Kr. Mitra, Sr. Adv.,
                                              J U D G M E N T
 
 
-"
+","[133, 327, 471]","[155, 357, 485]","['Supreme Court Of India', 'Common Cause (A Regd. Society)', 'Union of India']","['COURT', 'PETITIONER', 'RESPONDENT']"
 55,"Item No.32+54                                     Court No.1                     Section X
 
                                    S U P R E M E C O U R T O F               I N D I A
@@ -2133,7 +2133,7 @@ For the Defendant/Respondent           : Mr.   Jayanta Kr. Mitra, Sr. Adv.,
                                                   O R D E R
 
 
-"
+","[127, 324, 489, 875, 935, 1005, 1070, 1140, 1216, 1280, 1349]","[178, 337, 520, 888, 948, 1018, 1086, 1158, 1226, 1295, 1358]","['S U P R E M E C O U R T O F               I N D I A', 'Mohd. Mustafa', 'Union Public Service Commission', 'Sanjiv Khanna', 'P.S. Patwalia', 'Natasa Dalmia', 'Ashok K. Mahajan', 'Krishnan Venugopal', 'Pooja Dhar', 'Shivendra Singh', 'Deepanshi']","['COURT', 'PETITIONER', 'RESPONDENT', 'JUDGE', 'LAWYER', 'LAWYER', 'LAWYER', 'LAWYER', 'LAWYER', 'LAWYER', 'LAWYER']"
 56,"Honourable Dr. Justice B.Siva Sankara Rao           
 
  Second Appeal No.459 of 2017     
@@ -2172,7 +2172,7 @@ Honble Sri Justice Dr. B. Siva Sankara Rao
 
 Second Appeal No.459 of 2017      
 
-Judgment"
+Judgment","[23, 103, 174, 259, 309, 363, 693]","[41, 125, 194, 272, 326, 378, 712]","['B.Siva Sankara Rao', 'Ramayanam Satish Kumar', 'Thamada Bhaskara Rao', 'S.Subba Reddy', 'A.K.Kishore Reddy', 'T.V.Jaggi Reddy', 'B. Siva Sankara Rao']","['JUDGE', 'PETITIONER', 'RESPONDENT', 'LAWYER', 'LAWYER', 'LAWYER', 'JUDGE']"
 57,"""C.R.""
              In The High Court Of Kerala At Ernakulam
 
@@ -2236,7 +2236,7 @@ Other Present:
                                      O R D E R
 
 
-"
+","[27, 147, 609, 1157, 1188, 1252, 1376, 1512]","[60, 158, 618, 1170, 1203, 1257, 1391, 1524]","['High Court Of Kerala At Ernakulam', 'Ashok Menon', 'Sunil Raj', 'V.T.Raghunath', 'C.V.Rajalakshmi', 'Gopan', 'State Of Kerala', 'C.S.Hrithwik']","['COURT', 'JUDGE', 'PETITIONER', 'LAWYER', 'LAWYER', 'RESPONDENT', 'RESPONDENT', 'LAWYER']"
 58,"The Honourable Sri Justice C.V. Nagarjuna Reddy And  The Honourable Sri Justice T. Amarnath Goud                          
 
 Criminal Appeal No.607 of 2011
@@ -2253,7 +2253,7 @@ Counsel for the appellants : Mr. T. Niranjan Reddy, Senior Counsel, for for Mr. 
  2. Air 1973 Sc 501
  3. 1993 Crl.LJ 3684
  4. (1994) 5 Scc 188 The Honble Sri Justice C.V. Nagarjuna Reddy And The Honble Sri Justice T. Amarnath Goud Criminal Appeal No.607 of 2011 Dated:16-02-2018 The Court Made The Following:         
-Judgment"
+Judgment","[27, 80, 169, 216, 318, 365, 574, 622]","[47, 96, 185, 239, 335, 380, 594, 638]","['C.V. Nagarjuna Reddy', 'T. Amarnath Goud', 'Batchu Ranga Rao', 'State of Andhra Pradesh', 'T. Niranjan Reddy', 'K. Suresh Reddy', 'C.V. Nagarjuna Reddy', 'T. Amarnath Goud']","['JUDGE', 'JUDGE', 'PETITIONER', 'RESPONDENT', 'LAWYER', 'LAWYER', 'JUDGE', 'JUDGE']"
 59,"In The Income Tax Appellate Tribunal
                      Mumbai Bench ""C"", Mumbai
 
@@ -2281,7 +2281,7 @@ Pan: Aaccc4110G
                                       Order
 
 
-"
+","[7, 99, 150, 310, 356, 739, 799]","[82, 110, 163, 347, 386, 750, 819]","['Income Tax Appellate Tribunal\n                     Mumbai Bench ""C"", Mumbai', 'C.N. Prasad', 'G. Manjunatha', 'Coast Line Shipping (India) Pvt. Ltd.', 'Dy. Commissioner of Income Tax', 'Ravi Sawana', 'Kumar Padmapani Bora']","['COURT', 'JUDGE', 'JUDGE', 'PETITIONER', 'RESPONDENT', 'LAWYER', 'LAWYER']"
 60,"Reportable
                                  In The Supreme Court Of India
                                   Civil Appellate Jurisdiction
@@ -2303,7 +2303,7 @@ Pan: Aaccc4110G
                                             Judgment
 
 
-"
+","[51, 289, 436]","[73, 296, 464]","['Supreme Court Of India', 'Kalyani', 'Sulthan Bathery Municipality']","['COURT', 'PETITIONER', 'RESPONDENT']"
 61,"In The High Court Of Judicature At Patna
                     Criminal Writ Jurisdiction Case No.160 of 2021
           Arising Out of Ps. Case No.-58 Year-2020 Thana- Bakhari District- Begusarai
@@ -2325,7 +2325,7 @@ Pan: Aaccc4110G
 5. The Superintendent, Alpawas Grih, Nirala Nagar, Behind G.D. College, Ratanpur, Begusarai. 
 
  ... ... Respondents ====================================================== Appearance :
- For the Petitioner : Ms. Kriti Awasthi, Advocate Mr. Sambhav Gupta, Advocate Mr. Navnit Kumar, Advocate Mr. Shyam Kumar, Advocate For the Respondents : Mr.Nadim Seraj, G.P.5 For the Resp. No. 2 : Ms. Archana Sinha, Advocate For the Resp. No. 4 : Mr. Prabhu Narain Sharma, Advocate ====================================================== Coram: Honourable Mr. Justice Rajeev Ranjan Prasad C.A.V. Judgment"
+ For the Petitioner : Ms. Kriti Awasthi, Advocate Mr. Sambhav Gupta, Advocate Mr. Navnit Kumar, Advocate Mr. Shyam Kumar, Advocate For the Respondents : Mr.Nadim Seraj, G.P.5 For the Resp. No. 2 : Ms. Archana Sinha, Advocate For the Resp. No. 4 : Mr. Prabhu Narain Sharma, Advocate ====================================================== Coram: Honourable Mr. Justice Rajeev Ranjan Prasad C.A.V. Judgment","[7, 257, 378, 474, 616, 661, 753, 956, 984, 1012, 1039, 1086, 1131, 1181, 1297]","[40, 272, 392, 487, 628, 742, 837, 969, 997, 1024, 1050, 1097, 1144, 1201, 1317]","['High Court Of Judicature At Patna', 'Hanif Ur Rahman', 'State of Bihar', 'Meena Khatoon', 'Bihar Police', 'Child Welfare Committee, through Chairperson, Chanakyanagar, Mahmadpur, Begusarai', 'Superintendent, Alpawas Grih, Nirala Nagar, Behind G.D. College, Ratanpur, Begusarai', 'Kriti Awasthi', 'Sambhav Gupta', 'Navnit Kumar', 'Shyam Kumar', 'Nadim Seraj', 'Archana Sinha', 'Prabhu Narain Sharma', 'Rajeev Ranjan Prasad']","['COURT', 'PETITIONER', 'RESPONDENT', 'RESPONDENT', 'RESPONDENT', 'RESPONDENT', 'RESPONDENT', 'LAWYER', 'LAWYER', 'LAWYER', 'LAWYER', 'LAWYER', 'LAWYER', 'LAWYER', 'JUDGE']"
 62,"Cwp No.24195 of 2019(O&M)                                            #1#
 
         In The High Court Of Punjab & Haryana At
@@ -2361,7 +2361,7 @@ Present:-   Mr. Jagmohan Bansal, Advocate for the Petitioners.
 Jaswant Singh, J.
 
 
-"
+","[89, 317, 479, 658, 700, 729, 793, 893, 933, 1021]","[155, 336, 535, 671, 711, 744, 807, 905, 950, 1034]","['High Court Of Punjab & Haryana At\n                      Chandigarh', 'Akhil Krishan Maggu', 'Deputy Director, Directorate General of Gst Intelligence', 'Jaswant Singh', 'Lalit Batra', 'Jagmohan Bansal', 'Satya Pal Jain', 'Sourabh Goel', 'Tajender K. Joshi', 'Jaswant Singh']","['COURT', 'PETITIONER', 'RESPONDENT', 'JUDGE', 'JUDGE', 'LAWYER', 'LAWYER', 'LAWYER', 'LAWYER', 'JUDGE']"
 63,"1
                                         The High Court Of Madhya Pradesh
                                                        Ma No.268/2017
@@ -2378,7 +2378,7 @@ Jaswant Singh, J.
 
  Shri N.S. Tomar, Advocate for appellant in Ma No.295/2017 and for respondent no.3 in Ma No.268/2017. 
 
- "
+ ","[46, 189, 210, 335, 387, 561, 701]","[74, 194, 220, 377, 392, 571, 711]","['High Court Of Madhya Pradesh', 'Meera', 'Har Prasad', 'Reliance General Insurance Company Limited', 'Meera', 'B.D. Verma', 'N.S. Tomar']","['COURT', 'PETITIONER', 'RESPONDENT', 'PETITIONER', 'RESPONDENT', 'LAWYER', 'LAWYER']"
 64,"1
 
                           Before The Madurai Bench Of Madras High Court
@@ -2443,7 +2443,7 @@ http://www.judis.nic.in
                                                       Order
 
 
-"
+","[40, 258, 363, 522, 698, 825, 959, 1151, 1874, 1936]","[74, 273, 375, 541, 799, 933, 1125, 1280, 1888, 1951]","['Madurai Bench Of Madras High Court', 'S.M.Subramaniam', 'R.Ayyapillai', 'State of Tamil Nadu', 'Chief Engineer\n                    Water Resource Organization\n                    Chepauk, Chennai-5', 'Chief Engineer\n                    Water Resource Organization\n                    Madurai Division, Madurai', 'Superintending Engineer\n                    Water Resource Organization\n                    Tamirabarani Basin Circle\n                    Palayamkottai, Tirunelveli-2', 'Executive Engineer\n                    P.W.D.Water Resources Organization\n                    Kothaiyar Basin Division, Nagercoil', 'J.Anandhavalli', 'D.Muruganandham']","['COURT', 'JUDGE', 'PETITIONER', 'RESPONDENT', 'RESPONDENT', 'RESPONDENT', 'RESPONDENT', 'RESPONDENT', 'LAWYER', 'LAWYER']"
 65,"In The High Court Of Punjab And Haryana
                    At Chandigarh
 
@@ -2516,7 +2516,7 @@ Present:      Mr. Rohit Kapoor, Advocate for the petitioner(s).
 Mahabir Singh Sindhu, J.
 
 
- "
+ ","[7, 219, 401, 572, 713, 890, 1064, 1234, 1412, 1586, 1768, 2128, 2168, 2233, 2304, 2332, 2580]","[72, 256, 417, 584, 729, 946, 1080, 1272, 1428, 1627, 1784, 2148, 2180, 2245, 2323, 2344, 2600]","['High Court Of Punjab And Haryana\n                   At Chandigarh', 'Dabra Coop. Transport Society Limited', 'State of Haryana', 'Ramesh Kumar', 'State of Haryana', 'Dada Shyam Ji Co-operative Transport Society Ltd. Rohtak', 'State of Haryana', 'Naya Bans Coop. Transport Society Ltd.', 'State of Haryana', 'Gonder Cooperative Transport Society Ltd.', 'State of Haryana', 'Mahabir Singh Sindhu', 'Rohit Kapoor', 'Ankur Mittal', 'Pawan Kumar Mutneja', 'Nonish Kumar', 'Mahabir Singh Sindhu']","['COURT', 'PETITIONER', 'RESPONDENT', 'PETITIONER', 'RESPONDENT', 'PETITIONER', 'RESPONDENT', 'PETITIONER', 'RESPONDENT', 'PETITIONER', 'RESPONDENT', 'JUDGE', 'LAWYER', 'LAWYER', 'LAWYER', 'LAWYER', 'JUDGE']"
 66,"Wp 3269-19 (J).doc
 
 
@@ -2555,7 +2555,7 @@ Mahabir Singh Sindhu, J.
 Judgment
 
 
-"
+","[44, 200, 515, 621, 935, 960, 981, 1038, 1096, 1117, 1212]","[78, 219, 535, 640, 950, 971, 1006, 1052, 1107, 1135, 1224]","['High Court Of Judicature At Bombay', 'Siddharth Sabharwal', 'State of Maharashtra', 'Arzoo S. Govitrikar', 'Girish Kulkarni', 'Karan Kadam', 'Kripashankar\n      Pandey', 'Rutuja Ambekar', 'Aabad Ponda', 'Ashish Suryawanshi', 'S. S. Shinde']","['COURT', 'PETITIONER', 'RESPONDENT', 'RESPONDENT', 'LAWYER', 'LAWYER', 'LAWYER', 'LAWYER', 'LAWYER', 'LAWYER', 'JUDGE']"
 67,"In The High Court Of Karnataka At Bengaluru
 
          Dated This The 10Th Day Of August 2020
@@ -2638,7 +2638,7 @@ John Michael Cunha. J, Made The Following:-
                             Order
 
 
-"
+","[7, 159, 240, 432, 466, 647, 957, 1938]","[43, 177, 264, 441, 477, 667, 971, 1956]","['High Court Of Karnataka At Bengaluru', 'John Michael Cunha', 'Marina Annette Rodrigues', 'Manohar N', 'Vijaya Bank', 'G.Sirish Kumar Reddy', 'Vignesh Shetty', 'John Michael Cunha']","['COURT', 'JUDGE', 'PETITIONER', 'LAWYER', 'RESPONDENT', 'RESPONDENT', 'LAWYER', 'JUDGE']"
 68,"In The High Court At Calcutta
                          Ordinary Original Civil Jurisdiction
                                   Original Side
@@ -2681,7 +2681,7 @@ Delivered on                     :       17.09.2019.
  Moushumi Bhattacharya, J.
 
 
-"
+","[7, 171, 695, 781, 865, 932, 996, 1060, 1130, 1199, 1503]","[29, 192, 710, 809, 876, 944, 1007, 1078, 1146, 1209, 1524]","['High Court At Calcutta', 'Moushumi Bhattacharya', 'Dilip Choudhury', 'Pratishruti Projects Limited', 'S.P. Sarkar', 'A.K. Awasthi', 'Adil Rashid', 'Shuvasish Sengupta', 'Sarosij Dasgupta', 'Subhra Das', 'Moushumi Bhattacharya']","['COURT', 'JUDGE', 'PETITIONER', 'RESPONDENT', 'LAWYER', 'LAWYER', 'LAWYER', 'LAWYER', 'LAWYER', 'LAWYER', 'JUDGE']"
 69,"1
 
 
@@ -2708,7 +2708,7 @@ Wa No. 119/2018             Smt. Anjana Vs. Bank of India
                            Order
 
 
-"
+","[38, 49, 73, 161, 212, 309, 384, 490, 542, 608, 694]","[44, 62, 118, 173, 224, 315, 397, 501, 554, 619, 706]","['Anjana', 'Bank of India', 'High Court of Madhya Pradesh: Bench at Indore', 'P.K. Jaiswal', 'S.K. Awasthi', 'Anjana', 'Bank of India', 'V.K. Tankha', 'Varun Tankha', 'D.S. Panwar', 'Rohit Mangal']","['PETITIONER', 'RESPONDENT', 'COURT', 'JUDGE', 'JUDGE', 'PETITIONER', 'RESPONDENT', 'LAWYER', 'LAWYER', 'LAWYER', 'LAWYER']"
 70,"1
 
 
@@ -2763,7 +2763,7 @@ http://www.judis.nic.in                                                 for Mr.P
                                                           Order
 
 
-"
+","[48, 285, 421, 680, 879, 1111, 2142, 2235]","[82, 296, 439, 688, 1081, 1124, 2155, 2245]","['High Court Of Judicature At Madras', 'S.Manikumar', 'Subramonium Prasad', 'D.Ramani', 'Authorised Officer\n                        Bank of India\n                        Credit Monitoring and Recovery Department\n                        Star House\n                        Coimbatore - 641 001', 'Covai Bottles', 'S.R.Rajagopal', 'P.Gurusamy']","['COURT', 'JUDGE', 'JUDGE', 'PETITIONER', 'RESPONDENT', 'RESPONDENT', 'LAWYER', 'LAWYER']"
 71,"Reportable
                                     In The Supreme Court Of India
 
@@ -2788,7 +2788,7 @@ http://www.judis.nic.in                                                 for Mr.P
                                              Judgment
 
 
-"
+","[54, 313, 452]","[76, 324, 479]","['Supreme Court Of India', 'Vijay Karia', 'Prysmian Cavi E Sistemi Srl']","['COURT', 'PETITIONER', 'RESPONDENT']"
 72,"W.P.No.9267 of 2017
 
                                    In The High Court Of Judicature At Madras
@@ -2883,7 +2883,7 @@ http://www.judis.nic.in
                                                        Order
 
 
-"
+","[63, 295, 426, 613, 772, 927, 1081, 1185, 1358, 1664, 1827, 1937, 2072, 2253, 2409, 2570, 3195, 3428]","[97, 306, 444, 628, 791, 946, 1154, 1327, 1477, 1797, 1906, 2042, 2076, 2263, 2538, 2680, 3200, 3439]","['High Court Of Judicature At Madras', 'S.Manikumar', 'Subramonium Prasad', 'S.Vijayashankar', 'State of Tamil Nadu', 'State of Tamil Nadu', 'Director General of Police,\n                        Mylapore, Chennai - 4', 'Additional Director General of Police,\n                        (Social Justice and Human Rights)\n                        Mylapore, Chennai - 4', 'District Collector,\n                        The Collector Office,\n                        Cuddalore District, Cuddalore', 'Deputy Inspector General of Police,\n                        Villupuram Range,\n                        Villupuram District, Villupuram', 'Superintendent of Police,\n                        Cuddalore District, Cuddalore', 'Deputy Superintendent of Police, Cbcid\n                        District Police Office Compound, Cuddalore', 'Raja', 'Kaligadevi', 'Inspector of Police\n                         Nellikuppam Police Station,\n                         Nellikuppam, Cuddalore District', 'Dean,\n                         Jipmer, Dhanvantri Nagar,\n                         Gorimedu, Pondicheery-605006', 'P.Uma', 'E.Manoharan']","['COURT', 'JUDGE', 'JUDGE', 'PETITIONER', 'RESPONDENT', 'RESPONDENT', 'RESPONDENT', 'RESPONDENT', 'RESPONDENT', 'RESPONDENT', 'RESPONDENT', 'RESPONDENT', 'RESPONDENT', 'RESPONDENT', 'RESPONDENT', 'RESPONDENT', 'LAWYER', 'LAWYER']"
 73,"The High Court Of Judicature For Rajasthan
                     Bench At Jaipur
 
@@ -2918,7 +2918,7 @@ State of Rajasthan through Pp.
 4. Satyanarayan S/o Moti Lal R/o Sahaspuriya, Police Station Hindoli, District Bundi, Raj. 
 
  ----Respondents Crla No.186/2018 :
-"
+","[4, 141, 274, 529, 702, 835, 871, 963, 1050]","[78, 149, 286, 547, 715, 853, 879, 969, 1062]","['High Court Of Judicature For Rajasthan\n                    Bench At Jaipur', 'Mahaveer', 'Prem Shanker', 'State of Rajasthan', 'Bhanwar Singh', 'State of Rajasthan', 'Moti Lal', 'Pravat', 'Satyanarayan']","['COURT', 'PETITIONER', 'PETITIONER', 'RESPONDENT', 'PETITIONER', 'RESPONDENT', 'RESPONDENT', 'RESPONDENT', 'RESPONDENT']"
 74,"Reportable
                                     In The Supreme Court Of India
                                      Civil Appellate Jurisdiction
@@ -2946,7 +2946,7 @@ State of Rajasthan through Pp.
                                               Judgment
 
 
-"
+","[54, 221, 397]","[76, 276, 411]","['Supreme Court Of India', 'Asset Reconstruction Company\n           (India) Limited', 'Bishal Jaiswal']","['COURT', 'PETITIONER', 'RESPONDENT']"
 75,"Reportable
 
                                       In The Supreme Court Of India
@@ -2979,7 +2979,7 @@ State of Rajasthan through Pp.
                                                 Judgment
 
 
-"
+","[57, 236, 376, 585, 724]","[79, 263, 412, 621, 751]","['Supreme Court Of India', 'Avitel Post Studioz Limited', 'Hsbc Pi Holdings (Mauritius) Limited', 'Hsbc Pi Holdings (Mauritius) Limited', 'Avitel Post Studioz Limited']","['COURT', 'PETITIONER', 'RESPONDENT', 'PETITIONER', 'RESPONDENT']"
 76,"$~R-12-15
 
 
@@ -3037,7 +3037,7 @@ Coram:
 Hon'Ble Mr. Justice Manmohan
 Hon'Ble Ms. Justice Sangita Dhingra Sehgal
 Sangita Dhingra Sehgal, J
-"
+","[27, 271, 365, 385, 438, 495, 590, 823, 934, 1012, 1079, 1198, 1421, 1541, 1560, 1626, 1680, 1768, 2065, 2157, 2211, 2266, 2359, 2515, 2544, 2567]","[59, 285, 379, 430, 450, 500, 603, 846, 954, 1028, 1084, 1211, 1433, 1555, 1618, 1638, 1708, 1781, 2070, 2174, 2227, 2271, 2372, 2523, 2566, 2589]","['High Court Of Delhi At New Delhi', 'Runeet Gulathi', 'Maninder Singh', 'Smriti\n                                Asmita', 'Sarthak Garg', 'State', 'Aashaa Tiwari', 'Abhay Dewan alias Gappy', 'Hrishikesh    Baruah', 'Siddhant Kaushik', 'State', 'Aashaa Tiwari', 'Mahima Dewan', 'Maninder Singh', 'Smriti\n                                             Asmita', 'Sarthak Garg', 'State (Govt Of Nct Of Delhi)', 'Aashaa Tiwari', 'Jatin', 'Ajay Kr. Pipaniya', 'Pallavi Pipaniya', 'State', 'Aashaa Tiwari', 'Manmohan', 'Sangita Dhingra Sehgal', 'Sangita Dhingra Sehgal']","['COURT', 'PETITIONER', 'LAWYER', 'LAWYER', 'LAWYER', 'RESPONDENT', 'LAWYER', 'PETITIONER', 'LAWYER', 'LAWYER', 'RESPONDENT', 'LAWYER', 'PETITIONER', 'LAWYER', 'LAWYER', 'LAWYER', 'RESPONDENT', 'LAWYER', 'PETITIONER', 'LAWYER', 'LAWYER', 'RESPONDENT', 'LAWYER', 'JUDGE', 'JUDGE', 'JUDGE']"
 77,"Crl. Appeal Nos. 1709-1710 of 2019 (@ Slp [Crl.]Nos.2497-2498 of 2019)
           The State of Madhya Pradesh vs. Killu @ Kailash & Ors.
                                                                                                 1
@@ -3067,7 +3067,7 @@ Sangita Dhingra Sehgal, J
                                                         Judgment
 
 
-"
+","[85, 113, 395, 701, 864]","[108, 128, 417, 724, 879]","['State of Madhya Pradesh', 'Killu @ Kailash', 'Supreme Court Of India', 'State Of Madhya Pradesh', 'Killu @ Kailash']","['PETITIONER', 'RESPONDENT', 'COURT', 'PETITIONER', 'RESPONDENT']"
 78,"1
 
 
@@ -3099,7 +3099,7 @@ Sangita Dhingra Sehgal, J
                                         J U D G M E N T
 
 
-"
+","[120, 269, 402, 635, 769]","[142, 283, 417, 652, 784]","['Supreme Court Of India', 'R. Janakiammal', 'S.K. Kumarasamy', 'S.R. Somasundaram', 'S.K. Kumarasamy']","['COURT', 'PETITIONER', 'RESPONDENT', 'PETITIONER', 'RESPONDENT']"
 79,"1
 
 In The High Court Of Karnataka At Bengaluru
@@ -3241,7 +3241,7 @@ following:-
                            Judgment
 
 
-"
+","[10, 169, 255, 491, 589, 629, 701, 763, 981, 1016, 1446, 1522, 1776, 1811, 1847, 2016, 2415, 2616, 2651, 2687, 2823, 3383]","[46, 181, 265, 496, 607, 638, 723, 785, 991, 1029, 1456, 1543, 1786, 1824, 1865, 2034, 2424, 2626, 2664, 2705, 2841, 3395]","['High Court Of Karnataka At Bengaluru', 'Budihal R.B.', 'B.A. Patil', 'State', 'B.G.Namitha Mahesh', 'B.V.Kumar', 'Shanthamma @ Shantabai', 'Eerojirao @ B.Veerappa', 'C.V.Nagesh', 'K.Raghavendra', 'Shanthamma', 'Eeroji Rao @ Veerappa', 'C.V.Nagesh', 'K.Raghavendra', 'State of Karnataka', 'B.G.Namitha Mahesh', 'B.V.Kumar', 'C.V.Nagesh', 'K.Raghavendra', 'State of Karnataka', 'B.G.Namitha Mahesh', 'Budihal R.B.']","['COURT', 'JUDGE', 'JUDGE', 'PETITIONER', 'LAWYER', 'RESPONDENT', 'RESPONDENT', 'RESPONDENT', 'LAWYER', 'LAWYER', 'PETITIONER', 'PETITIONER', 'LAWYER', 'LAWYER', 'RESPONDENT', 'LAWYER', 'PETITIONER', 'LAWYER', 'LAWYER', 'RESPONDENT', 'LAWYER', 'JUDGE']"
 80,"1
 
                                               Crl.A. No.1011/2017 J
@@ -3279,7 +3279,7 @@ Respondent        State by Cbi/Acb, Bangalore,
                          Judgment
 
 
-"
+","[85, 290, 546, 816, 886]","[214, 313, 555, 826, 891]","['Court Of The Xxi Addl. City Civil And\n     Sessions Judge And Prl. Special Judge For Cbi\n              Cases At Bengaluru (Cch-4)', 'Sadashiva S. Sultanpuri', 'Chikkanna', 'Praveen C.', 'State']","['COURT', 'JUDGE', 'PETITIONER', 'LAWYER', 'RESPONDENT']"
 81,"In The High Court At Calcutta
                 Ordinary Original Civil Jurisdiction
                            Original Side
@@ -3312,7 +3312,7 @@ For the respondent             : Mr. Partha Sarathi Bhattacharya,
  1. This is an application under Section 9 of the Arbitration and Conciliation Act, 1996 (""the Act""). 
 
  The facts:-
- "
+ ","[7, 249, 329, 443, 548, 609, 662, 715, 770, 805, 889]","[29, 267, 384, 498, 559, 621, 674, 730, 797, 816, 907]","['High Court At Calcutta', 'Ravi Krishan Kapur', 'Bharat Heavy Electricals Limited - Electronics Division', 'The West Bengal State Electricity Distribution Co. Ltd.', 'Jishnu Saha', 'Touseef Khan', 'Arindam Paul', 'Parul Mukherjee', 'Partha Sarathi Bhattacharya', 'S. S. Koley', 'Ravi Krishan Kapur']","['COURT', 'JUDGE', 'PETITIONER', 'RESPONDENT', 'LAWYER', 'LAWYER', 'LAWYER', 'LAWYER', 'LAWYER', 'LAWYER', 'JUDGE']"
 82,"The Hon'Ble The Chief Justice Satish Chandra Sharma
                                         And
         The Hon'Ble Sri Justice Abhinand Kumar Shavili
@@ -3326,7 +3326,7 @@ For the respondent             : Mr. Partha Sarathi Bhattacharya,
 8558, 8664, 9358, 9364, 9393, 9621, 9660, 10264, 10924, 11067,
          11089, 11642, 14560, 18118 and 18138 of 2017 and
                                  19616 of 2019
-Common Order"
+Common Order","[30, 128]","[51, 150]","['Satish Chandra Sharma', 'Abhinand Kumar Shavili']","['JUDGE', 'JUDGE']"
 83,"Reportable
 
                                   In The Supreme Court Of India
@@ -3350,7 +3350,7 @@ Common Order"
                                             Judgment
 
 
-"
+","[53, 224, 352]","[75, 239, 406]","['Supreme Court Of India', 'Subhash Chander', 'Bharat Petroleum\n               Corporation Ltd.(Bpcl)']","['COURT', 'PETITIONER', 'RESPONDENT']"
 84,"In The Supreme Court Of India
                                        Criminal Appellate Jurisdiction
 
@@ -3365,7 +3365,7 @@ Common Order"
                                                       O R D E R
 
 
-"
+","[7, 262, 420]","[29, 278, 442]","['Supreme Court Of India', 'Anil Kumar Yadav', 'State Of Uttar Pradesh']","['COURT', 'PETITIONER', 'RESPONDENT']"
 85,"1
 
                                                         R
@@ -3423,7 +3423,7 @@ Pronounced The Following:
                              Judgment
 
 
-"
+","[75, 236, 309, 547, 587, 685, 900]","[111, 248, 322, 561, 614, 700, 924]","['High Court Of Karnataka At Bengaluru', 'H.P. Sandesh', 'G.L. Jagadish', 'H. Ramachandra', 'H.R. Anantha Krishna Murthy', 'Vasantha Kokila', 'K.R. Lakshminarayana Rao']","['COURT', 'JUDGE', 'PETITIONER', 'LAWYER', 'LAWYER', 'RESPONDENT', 'LAWYER']"
 86,"In The High Court Of Kerala At Ernakulam
 
                                Present
@@ -3485,7 +3485,7 @@ Following:
                                  Judgment
 
 
-"
+","[7, 116, 299, 519, 553, 587, 627, 861, 912, 959, 1002, 1054, 1097, 1147, 1196, 1248, 1293, 1335, 1594]","[40, 132, 312, 534, 568, 598, 638, 872, 925, 968, 1020, 1063, 1112, 1162, 1214, 1259, 1306, 1355, 1610]","['High Court Of Kerala At Ernakulam', 'P.B.Suresh Kumar', 'Anandagopan.K', 'V.Philip Mathew', 'E.Radhakrishnan', 'Jeph Joseph', 'Anto Antony', 'S.Sreekumar', 'P.Martin Jose', 'P.Prijith', 'Thomas P.Kuruvilla', 'R.Githesh', 'Manjunath Menon', 'Harikrishnan S.', 'Sachin Jacob Ambat', 'Hani P.Nair', 'Ajay Ben Jose', 'Murali Purushothaman', 'P.B.Suresh Kumar']","['COURT', 'JUDGE', 'PETITIONER', 'LAWYER', 'LAWYER', 'LAWYER', 'RESPONDENT', 'LAWYER', 'LAWYER', 'LAWYER', 'LAWYER', 'LAWYER', 'LAWYER', 'LAWYER', 'LAWYER', 'LAWYER', 'LAWYER', 'LAWYER', 'JUDGE']"
 87,"In The High Court Of Kerala At Ernakulam
 
                                    Present
@@ -3541,7 +3541,7 @@ The Court On 29-09-2020 Delivered The Following:
                                      Judgment
 
 
-"
+","[7, 136, 234, 397, 605, 661, 822, 1014, 1100, 1309, 1381, 1434]","[40, 147, 247, 407, 615, 676, 994, 1081, 1114, 1323, 1401, 1448]","['High Court Of Kerala At Ernakulam', 'S.Manikumar', 'Shaji P.Chaly', 'M.P.Chothy', 'M.P.Chothy', 'State Of Kerala', 'Registrar,\n                 State Sc/St Commission, Ayyankali Bhavan,\n                 Kanaka Nagar, Vellayambalam, Kaudiar P.O,\n                 Thiruvananthapuram-695 003', 'Registrar General,\n                 High Court Of Kerala, Ernakulam', 'Union Of India', 'Prakashan K.V.', 'B.Unnikrishna Kaimal', 'Sindhumol.T.P.']","['COURT', 'JUDGE', 'JUDGE', 'PETITIONER', 'LAWYER', 'RESPONDENT', 'RESPONDENT', 'RESPONDENT', 'RESPONDENT', 'LAWYER', 'LAWYER', 'LAWYER']"
 88,"$~J-
 *    In The High Court Of Delhi At New Delhi
                         Judgment Reserved on: 23.01.2019
@@ -3565,7 +3565,7 @@ Jayant Nath, J.
 
 
 Ia No. 14323/2016
-"
+","[17, 198, 288, 308, 361, 419, 480, 568, 585, 638, 741, 754]","[49, 211, 303, 352, 370, 431, 493, 580, 630, 691, 752, 765]","['High Court Of Delhi At New Delhi', 'Rajeev Tandon', 'Prabhjit Jauhar', 'Rosemary\n                               Raju', 'Aishwarya', 'Upasana Goel', 'Rashmi Tandon', 'Gaurav Mitra', 'Vaibhav\n                               Mishra', 'Rashmita Roy\n                               Choudhury', 'Jayant Nath', 'Jayant Nath']","['COURT', 'PETITIONER', 'LAWYER', 'LAWYER', 'LAWYER', 'LAWYER', 'RESPONDENT', 'LAWYER', 'LAWYER', 'LAWYER', 'JUDGE', 'JUDGE']"
 89,"*       In The High Court Of Delhi At New Delhi
                                           Reserved on: 04.10.2018
                                        Pronounced on: 07.01.2019
@@ -3633,7 +3633,7 @@ Mr. Justice S. Ravindra Bhat
 %
 1.   The petitioners [in W.P.(C) 516/2010] are co-owners along with other
 heirs, of late Sharbati Devi, of property, being No. 4/14A, Asaf Ali Road;
-"
+","[15, 234, 333, 427, 536, 641, 744, 841, 933, 1059, 1171, 1368, 1508, 1528, 1581, 1608, 1741, 1767, 1939, 1958, 2231, 2354, 2476, 2506, 2559, 2704, 2725, 2856, 2982, 3126, 3255, 3378, 3402, 3519, 3561, 3585]","[47, 249, 336, 441, 539, 660, 758, 863, 947, 1090, 1182, 1379, 1522, 1543, 1599, 1623, 1757, 1815, 1949, 1971, 2244, 2365, 2490, 2518, 2572, 2716, 2740, 2866, 2997, 3138, 3268, 3393, 3416, 3535, 3572, 3601]","['High Court Of Delhi At New Delhi', 'Shobha Aggarwal', 'Uoi', 'Mahender Yadav', 'Uoi', 'Harsh Kumar Agarwal', 'Union Of India', 'Chaudhary Kishan Chand', 'Union Of India', 'Raghubir Saran Charitable Trust', 'Raymond Ltd', 'Pranav Jain', 'Shalini Kapoor', 'Rhea. G. Munjal', 'Bindita Chaturvedi', 'Dikshant Khanna', 'Ashwani Bhardwaj', 'Ananya\n                                Mukherjee', 'Ankit Jain', 'Siddhnat Nath', 'Anuj Aggarwal', 'Vivek Goyal', 'Akshay Makhija', 'Aditya Goyal', 'Kriti Awasthi', 'Simran Mehta', 'Surhid Bhandari', 'Anuj Sarma', 'Jaswinder Singh', 'Pradeep K.B.', 'S.D. Windlesh', 'Abhineet Gulati', 'Anjana Thukral', 'S. Ravindra Bhat', 'A.K. Chawla', 'S. Ravindra Bhat']","['COURT', 'PETITIONER', 'RESPONDENT', 'PETITIONER', 'RESPONDENT', 'PETITIONER', 'RESPONDENT', 'PETITIONER', 'RESPONDENT', 'PETITIONER', 'RESPONDENT', 'LAWYER', 'LAWYER', 'LAWYER', 'LAWYER', 'LAWYER', 'LAWYER', 'LAWYER', 'LAWYER', 'LAWYER', 'LAWYER', 'LAWYER', 'LAWYER', 'LAWYER', 'LAWYER', 'LAWYER', 'LAWYER', 'LAWYER', 'LAWYER', 'LAWYER', 'LAWYER', 'LAWYER', 'LAWYER', 'JUDGE', 'JUDGE', 'JUDGE']"
 90,"In The Income Tax Appellate Tribunal,
                 Delhi Bench: 'E' New Delhi
 
@@ -3662,7 +3662,7 @@ Ghaziabad                                Phoos Bangla, Civil Lines,
                                  Order
 
 
-"
+","[7, 104, 352, 399, 816, 883]","[80, 114, 356, 415, 833, 899]","[""Income Tax Appellate Tribunal,\n                Delhi Bench: 'E' New Delhi"", 'Kul Bharat', 'Dcit', 'Shiv Dayal Singh', 'Pramita M. Biswas', 'Abhinav Malhotra']","['COURT', 'JUDGE', 'PETITIONER', 'RESPONDENT', 'LAWYER', 'LAWYER']"
 91,"Honble Sri Justice P. Keshava Rao        
 
 Criminal Revision Case No.1625 Of 2018       
@@ -3693,7 +3693,7 @@ Honble Sri Justice P. Keshava Rao
 
 Criminal Revision Case No.1625 of 2018      
 
-Order"
+Order","[19, 104, 141, 293, 445]","[33, 121, 159, 308, 459]","['P. Keshava Rao', 'D. Chandra Sekhar', 'State of Telangana', 'G. Sravan Kumar', 'P. Keshava Rao']","['JUDGE', 'PETITIONER', 'RESPONDENT', 'LAWYER', 'JUDGE']"
 92,"$~
 *     In The High Court Of Delhi At New Delhi
 +     Cs(Comm) 1155/2018 & I.As.13597/2018 And 14309/2018
@@ -3721,7 +3721,7 @@ Hon'Ble Mr. Justice Manmohan
                   Judgment
 
 
-"
+","[16, 113, 203, 272, 320, 336, 389, 440, 457, 512, 615, 696, 760, 806, 851, 867, 915, 966, 1166]","[48, 138, 213, 282, 330, 383, 403, 451, 503, 560, 629, 710, 801, 818, 862, 909, 958, 974, 1174]","['High Court Of Delhi At New Delhi', 'Su-Kam Power Systems Ltd.', 'Amit Sibal', 'Anuj Berry', 'Abhey J.V.', 'Saksham\n                                Dhingra', 'Vinay Tripathi', 'Malak Bhatt', 'Apoorva\n                                Murali', 'Surabhi\n                                Bhandari', 'Kunwer Sachdev', 'Rajeev Virmani', 'Ajay\n                            Bhargava', 'Ankur Sangal', 'Sucheta Roy', 'Richa\n                            Bhargava', 'Saugaat\n                            Khurana', 'Niharika', 'Manmohan']","['COURT', 'PETITIONER', 'LAWYER', 'LAWYER', 'LAWYER', 'LAWYER', 'LAWYER', 'LAWYER', 'LAWYER', 'LAWYER', 'RESPONDENT', 'LAWYER', 'LAWYER', 'LAWYER', 'LAWYER', 'LAWYER', 'LAWYER', 'LAWYER', 'JUDGE']"
 93,"Fao-792-2018                                [1]
 
 
@@ -3753,7 +3753,7 @@ Present:     Mr.Sanjeev Goyal, Advocate
 Harinder Singh Sidhu, J.
 
 
- "
+ ","[69, 293, 393, 497, 536, 617, 703]","[139, 340, 400, 517, 549, 633, 723]","['High Court Of Punjab And Haryana\n                        At Chandigarh', 'Icici Lombard General Insurance Company Limited', 'Mehrana', 'Harinder Singh Sidhu', 'Sanjeev Goyal', 'Diwan S. Adlakha', 'Harinder Singh Sidhu']","['COURT', 'PETITIONER', 'RESPONDENT', 'JUDGE', 'LAWYER', 'LAWYER', 'JUDGE']"
 94,"Reportable
 
 
@@ -3774,7 +3774,7 @@ Harinder Singh Sidhu, J.
                                                  Judgment
 
 
-"
+","[61, 332, 477]","[83, 343, 497]","['Supreme Court Of India', 'Canara Bank', 'N.G. Subbaraya Setty']","['COURT', 'PETITIONER', 'RESPONDENT']"
 95,"High Court Of Judicature At Allahabad
  
  
@@ -3802,7 +3802,7 @@ Counsel for Opposite Party :- G.A.
 Hon'ble Mrs. Manju Rani Chauhan,J.
 
 
-"
+","[0, 138, 190, 244, 266, 334]","[37, 156, 203, 265, 278, 352]","['High Court Of Judicature At Allahabad', 'Mohammad Azam Khan', 'State Of U.P.', 'Saiful Islam Siddiqui', 'Tahira Kazmi', 'Manju Rani Chauhan']","['COURT', 'PETITIONER', 'RESPONDENT', 'LAWYER', 'LAWYER', 'JUDGE']"
 96,"C/Lpa/1655/2019                             Judgment Dated: 30/06/2021
 
 
@@ -3870,7 +3870,7 @@ for the Respondent(s) No. 1
 
                            Oral Judgment
 
-"
+","[95, 466, 545, 1180, 1275, 1379, 1422, 1515, 1553, 1696, 1757]","[129, 479, 565, 1210, 1303, 1396, 1436, 1526, 1568, 1709, 1777]","['High Court Of Gujarat At Ahmedabad', 'J.B.Pardiwala', 'Vaibhavi D. Nanavati', 'Navrangpura Gam Dharmada Trust', 'Gautambhai Bhikhabhai Thakor', 'Mehul Suresh Shah', 'Vishal C\nMehta', 'Ansin Desai', 'Zalak B Pipalia', 'J.B.Pardiwala', 'Vaibhavi D. Nanavati']","['COURT', 'JUDGE', 'JUDGE', 'PETITIONER', 'RESPONDENT', 'LAWYER', 'LAWYER', 'LAWYER', 'LAWYER', 'JUDGE', 'JUDGE']"
 97,"Reportable
 
 
@@ -3900,7 +3900,7 @@ for the Respondent(s) No. 1
                                                   Judgment
 
 
-"
+","[58, 249, 395]","[80, 256, 420]","['Supreme Court Of India', 'Ram Lal', 'State Of Himachal Pradesh']","['COURT', 'PETITIONER', 'RESPONDENT']"
 98,"1
 
 
@@ -3918,7 +3918,7 @@ for the Respondent(s) No. 1
 
                          State of Uttarakhand                                   .. Respondent
 
- With Criminal Appeal No. 1652 of 2013 and Criminal Appeal No. 1653 of 2013 J U D G M E N T"
+ With Criminal Appeal No. 1652 of 2013 and Criminal Appeal No. 1653 of 2013 J U D G M E N T","[139, 329, 488]","[161, 341, 508]","['Supreme\xa0Court\xa0Of\xa0India', 'Farida\xa0Begum', 'State\xa0of\xa0Uttarakhand']","['COURT', 'PETITIONER', 'RESPONDENT']"
 99,"Cr No.4242 of 2019(O&M)                                                              1
 
        In The High Court Of Punjab And Haryana At
@@ -3946,7 +3946,7 @@ Present:     Mr. Puneet Kansal, Advocate and
 Raj Mohan Singh, J.
 
 
-"
+","[102, 294, 373, 531, 565, 610, 686, 736, 779, 878]","[171, 335, 383, 546, 578, 624, 696, 747, 794, 893]","['High Court Of Punjab And Haryana At\n                       Chandigarh', 'Municipal Committee/Council, Jalalabad(W)', 'Vimla Devi', 'Raj Mohan Singh', 'Puneet Kansal', 'Nikhita Kansal', 'Vikas Bahl', 'C.M. Munjal', 'Priyanka Kansal', 'Raj Mohan Singh']","['COURT', 'PETITIONER', 'RESPONDENT', 'JUDGE', 'LAWYER', 'LAWYER', 'LAWYER', 'LAWYER', 'LAWYER', 'JUDGE']"
 100,"1
                                                                       S.A. No. 421/2001
 
@@ -3979,7 +3979,7 @@ Sher Mohmmad & others.                                    ...Respondents
                                    Judgment
 
 
-"
+","[98, 229, 298, 506, 659, 693, 755]","[181, 240, 309, 518, 668, 705, 767]","['High Court Of Madhya Pradesh : Bench At\n                                     Indore', 'Vivek Rusia', 'Sabbir Khan', 'Sher Mohmmad', 'A.S. Garg', 'Sapnesh Jain', 'Gulab Sharma']","['COURT', 'JUDGE', 'PETITIONER', 'RESPONDENT', 'LAWYER', 'LAWYER', 'LAWYER']"
 101,"Item No.16                           Court No.7                 Section Ii
 
                                S U P R E M E C O U R T O F      I N D I A
@@ -4022,7 +4022,7 @@ Sher Mohmmad & others.                                    ...Respondents
                                              O R D E R
 
 
-"
+","[107, 391, 456, 602, 1031, 1093, 1151, 1215, 1278, 1342, 1405]","[149, 448, 468, 624, 1047, 1107, 1163, 1230, 1295, 1357, 1416]","['S U P R E M E C O U R T O F      I N D I A', 'High Court Of Judicature At\n     Allahabad, Lucknow Bench', 'Rakesh Kumar', 'State Of Uttar Pradesh', 'Uday Umesh Lalit', 'Aniruddha Bose', 'Pradeep Kant', 'Divyanshu Sahay', 'Rohit Kumar Singh', 'Shradha Narayan', 'Sanjay Goel']","['COURT', 'COURT', 'PETITIONER', 'RESPONDENT', 'JUDGE', 'JUDGE', 'LAWYER', 'LAWYER', 'LAWYER', 'LAWYER', 'LAWYER']"
 102,"Non­Reportable
                                  In The Supreme Court Of India
                                  Civil Appellate Jurisdiction
@@ -4046,7 +4046,7 @@ Sher Mohmmad & others.                                    ...Respondents
                                           Judgment
 
 
-"
+","[55, 218, 339]","[77, 236, 355]","['Supreme Court Of India', 'Goli Vijayalakshmi', 'Yendru Sathiraju']","['COURT', 'PETITIONER', 'RESPONDENT']"
 103,"High Court Of Judicature At Allahabad
  
  
@@ -4148,7 +4148,7 @@ Hon'ble B. Amit Sthalekar,J.
 
 Hon'ble Piyush Agrawal,J. 
 
- "
+ ","[0, 130, 197, 252, 269, 316, 337, 414, 450, 505, 522, 569, 590, 667, 696, 752, 769, 823, 837, 914, 964, 1020, 1037, 1084, 1105, 1185, 1228, 1284, 1301, 1348, 1369, 1446, 1499, 1555, 1572, 1619, 1640, 1717, 1765, 1820, 1837, 1884, 1905, 1933, 1964]","[37, 168, 209, 268, 287, 336, 351, 433, 462, 521, 540, 589, 604, 679, 709, 768, 787, 836, 851, 935, 977, 1036, 1055, 1104, 1119, 1199, 1241, 1300, 1319, 1368, 1383, 1469, 1512, 1571, 1590, 1639, 1654, 1736, 1777, 1836, 1855, 1904, 1919, 1950, 1978]","['High Court Of Judicature At Allahabad', 'Yantraleshwar Gupta Alias Dhreej Kumar', 'State Of U P', 'Ajay Kumar Singh', 'Ashish Kumar Singh', 'C.S.C.,P.K. Upadhyay', 'Vineet Sankalp', 'Rajendra Maheshwari', 'State Of U P', 'Ajay Kumar Singh', 'Ashish Kumar Singh', 'C.S.C.,P.K. Upadhyay', 'Vineet Sankalp', 'Sohrab Ahmad', 'State Of U.P.', 'Ajay Kumar Singh', 'Ashish Kumar Singh', 'P.K. Upadhyay', 'Vineet Sankalp', 'Durga Prasad Baranwal', 'State Of U.P.', 'Ajay Kumar Singh', 'Ashish Kumar Singh', 'C.S.C.,P.K. Upadhyay', 'Vineet Sankalp', 'Ashish Agarwal', 'State Of U.P.', 'Ajay Kumar Singh', 'Ashish Kumar Singh', 'C.S.C.,P.K. Upadhyay', 'Vineet Sankalp', 'Santosh Kumar Chaurasia', 'State Of U.P.', 'Ajay Kumar Singh', 'Ashish Kumar Singh', 'C.S.C.,P.K. Upadhyay', 'Vineet Sankalp', 'Ishwar Chandra Giri', 'State Of U P', 'Ajay Kumar Singh', 'Ashish Kumar Singh', 'C.S.C.,P.K. Upadhyay', 'Vineet Sankalp', 'B. Amit Sthalekar', 'Piyush Agrawal']","['COURT', 'PETITIONER', 'RESPONDENT', 'LAWYER', 'LAWYER', 'LAWYER', 'LAWYER', 'PETITIONER', 'RESPONDENT', 'LAWYER', 'LAWYER', 'LAWYER', 'LAWYER', 'PETITIONER', 'RESPONDENT', 'LAWYER', 'LAWYER', 'LAWYER', 'LAWYER', 'PETITIONER', 'RESPONDENT', 'LAWYER', 'LAWYER', 'LAWYER', 'LAWYER', 'PETITIONER', 'RESPONDENT', 'LAWYER', 'LAWYER', 'LAWYER', 'LAWYER', 'PETITIONER', 'RESPONDENT', 'LAWYER', 'LAWYER', 'LAWYER', 'LAWYER', 'PETITIONER', 'RESPONDENT', 'LAWYER', 'LAWYER', 'LAWYER', 'LAWYER', 'JUDGE', 'JUDGE']"
 104,"Reportable
 
 
@@ -4174,7 +4174,7 @@ M/S. Uni Products India Ltd.                   ...Respondent
                           Judgment
 
 
-"
+","[32, 147, 282]","[54, 188, 305]","['Supreme Court Of India', 'Commissioner Of Central Excise,\nDelhi-Iii', 'Uni Products India Ltd.']","['COURT', 'PETITIONER', 'RESPONDENT']"
 105,"High Court Of Judicature For Rajasthan
                  Bench At Jaipur
                (1) S.B. Civil Writs No. 1416/2018
@@ -4211,7 +4211,7 @@ M/S. Uni Products India Ltd.                   ...Respondent
 3. Ajay Jain Son Of Late Shri Manak Raj Munot, R/o Raj Vihar Mile, 6/4, Tonk Road, Airport, Sanganer, Jaipur (2 of 20) [Cw-1416/2018] (Raj.)
  ----Respondents For Petitioner(s) : Mr. Ajeet Bhandari, Adv. with Mr. Jitendra Mishra, Adv. 
 
-"
+","[0, 128, 210, 527, 608, 679, 812, 1031, 1106, 1328, 1404, 1465, 1644, 1674]","[71, 150, 231, 597, 667, 691, 824, 1053, 1127, 1393, 1459, 1474, 1658, 1689]","['High Court Of Judicature For Rajasthan\n                 Bench At Jaipur', 'Sudhir Heeralal Dhadda', 'Sunil Heeralal Dhadda', 'Assistant Commissioner-I, Devasthan Department,\n     Rajasthan, Jaipur', 'Commissioner, Devasthan Department, Rajasthan,\n     Udaipur', 'Balraj Munot', 'Manju Surana', 'Sudhir Heeralal Dhadda', 'Sunil Heeralal Dhadda', 'Assistant Commissioner-I, Devasthan Department, Rajasthan, Jaipur', 'Commissioner, Devasthan Department, Rajasthan, Udaipur.', 'Ajay Jain', 'Ajeet Bhandari', 'Jitendra Mishra']","['COURT', 'PETITIONER', 'PETITIONER', 'RESPONDENT', 'RESPONDENT', 'RESPONDENT', 'RESPONDENT', 'PETITIONER', 'PETITIONER', 'RESPONDENT', 'RESPONDENT', 'RESPONDENT', 'LAWYER', 'LAWYER']"
 106,"C.R No. 6893 of 2018                                              -1-
 
 
@@ -4258,7 +4258,7 @@ Present: Mr. Vijay Kumar Jindal, Senior Advocate, with
 Alka Sarin, J.
 
 
- "
+ ","[86, 263, 368, 467, 571, 673, 700, 755, 799, 856, 903, 953]","[154, 280, 383, 484, 586, 683, 718, 770, 810, 866, 919, 963]","['High Court Of Punjab And Haryana At\n                      Chandigarh', 'Sunil Dutt Bansal', 'Jai Bhagwan&Ors', 'Sunil Dutt Bansal', 'Jai Bhagwan&Ors', 'Alka Sarin', 'Vijay Kumar Jindal', 'Samar Ahluwalia', 'JanyaSirohi', 'Vikas Bahl', 'Nikhil Sabharwal', 'Alka Sarin']","['COURT', 'PETITIONER', 'RESPONDENT', 'PETITIONER', 'RESPONDENT', 'JUDGE', 'LAWYER', 'LAWYER', 'LAWYER', 'LAWYER', 'LAWYER', 'JUDGE']"
 107,"1
 
                                       In The High Court Of Judicature At Madras
@@ -4306,7 +4306,7 @@ http://www.judis.nic.in
                                                     Judgment
 
 
-"
+","[48, 285, 418, 598, 751, 1202, 1366, 1448]","[82, 296, 429, 607, 759, 1216, 1380, 1460]","['High Court Of Judicature At Madras', 'S.Manikumar', 'M.Venugopal', 'V.Sridevi', 'C.S.Mani', 'A.Thiyagarajan', 'L.Chandrakumar', 'N.G.R.Prasad']","['COURT', 'JUDGE', 'JUDGE', 'PETITIONER', 'RESPONDENT', 'LAWYER', 'LAWYER', 'LAWYER']"
 108,"Honble Dr. Justice B. Siva Sankara Rao        
 
 Writ Petition Nos.5978 of 2017   
@@ -4342,7 +4342,7 @@ Counsel for Respondents:Learned Government Pleader
 14. (2013) 5 Scc 336 
 15. (2006) 7 Scc 597 In The High Court Of Judicature At Hyderabad For The State Of Telangana And The State Of Andhra Pradesh + Writ Petition Nos.5978 and 9673 of 2017 Sri A. Murali and another .Petitioners Versus The State of Andhra Pradesh, rep. by its Principal Secretary, Municipal Administration Department, Secretariat, Velagapudi, Amaravathi, Guntur District and three others. 
 
- Respondents Date Of Judgment"
+ Respondents Date Of Judgment","[19, 100, 140, 291, 427, 487, 886, 1029, 1075]","[38, 109, 163, 309, 436, 498, 923, 1038, 1098]","['B. Siva Sankara Rao', 'A. Murali', 'State of Andhra Pradesh', 'P. Gangarami Reddy', 'Md.Saleem', 'M. Ravindra', 'High Court Of Judicature At Hyderabad', 'A. Murali', 'State of Andhra Pradesh']","['JUDGE', 'PETITIONER', 'RESPONDENT', 'LAWYER', 'LAWYER', 'LAWYER', 'COURT', 'PETITIONER', 'RESPONDENT']"
 109,"1
 
      Item No.3                         Court 6 (Video Conferencing)                        Section Xvii-A
@@ -4379,7 +4379,7 @@ Counsel for Respondents:Learned Government Pleader
 
                                 Upon hearing the counsel the Court made the following
                                                        O R D E R
-"
+","[150, 554, 726, 1102, 1172, 1236, 1307, 1381, 1453]","[203, 597, 766, 1118, 1181, 1248, 1317, 1393, 1470]","['S U P R E M E C O U R T O F                 I N D I A', 'Commissioner Of Central Excise And St Daman', 'Firmenich Aromatic India Private Limited', 'D.Y. Chandrachud', 'M.R. Shah', 'Balbir Singh', 'A.K. Panda', 'Rupesh Kumar', 'B. Krishna Prasad']","['COURT', 'PETITIONER', 'RESPONDENT', 'JUDGE', 'JUDGE', 'LAWYER', 'LAWYER', 'LAWYER', 'LAWYER']"
 110,":1:
 
 
@@ -4437,7 +4437,7 @@ day, the court made the following:
                          Order
 
 
-"
+","[15, 162, 232, 424, 455, 659]","[51, 174, 247, 434, 469, 671]","['High Court Of Karnataka At Bengaluru', 'K.Somashekar', 'T. Karthik Raja', 'Abhinav .R', 'V.M. Prabhakar', 'V.R. Sarathy']","['COURT', 'JUDGE', 'PETITIONER', 'LAWYER', 'RESPONDENT', 'LAWYER']"
 111,"1
 
                             Before The Madurai Bench Of Madras High Court
@@ -4491,7 +4491,7 @@ http://www.judis.nic.in
                                                  Judgment
 
 
-"
+","[42, 268, 543, 882, 913, 953, 1085, 1124, 1158, 1881, 1957, 2033]","[76, 280, 573, 888, 922, 960, 1099, 1133, 1185, 1892, 1968, 2043]","['Madurai Bench Of Madras High Court', 'V.M.Velumani', 'Brinks Arya India Private Ltd.', 'G.Bama', 'G.Thulasi', 'G.Lenin', 'Rengappa Reddi', 'Rukkumani', 'National Insurance Co. Ltd.', 'D.Sivaraman', 'K.Murugesan', 'J.S.Murali']","['COURT', 'JUDGE', 'PETITIONER', 'RESPONDENT', 'RESPONDENT', 'RESPONDENT', 'RESPONDENT', 'RESPONDENT', 'RESPONDENT', 'LAWYER', 'LAWYER', 'LAWYER']"
 112,"*      In The High Court Of Delhi At New Delhi
                                  Reserved on: 12.10.2018
                                Pronounced on: 22.04.2019
@@ -4539,7 +4539,7 @@ Fao (Os) (Comm) 169/2017                                     Page 1 of 90
        Hon'Ble Mr. Justice Sanjeev Sachdeva
 Mr. Justice S. Ravindra Bhat
 %
-"
+","[14, 270, 351, 400, 418, 441, 516, 602, 653, 672, 742, 792, 818, 855, 995, 1128, 1186, 1204, 1243, 1307, 1382, 1408, 1445, 1588, 1632, 1661]","[46, 287, 365, 412, 432, 471, 530, 621, 663, 685, 752, 812, 830, 870, 1027, 1146, 1198, 1218, 1262, 1335, 1402, 1436, 1460, 1604, 1648, 1677]","['High Court Of Delhi At New Delhi', 'Bayer Corporation', 'Sudhir Chandra', 'Sanjay Kumar', 'Arpita Sawhney', 'Arun\n               Kumar Jana', 'Union Of India', 'Ripu Daman Bhardwaj', 'T.P. Singh', 'Shashwat Jain', 'Rajeshwari', 'Saya Choudhary Kapur', 'Vivek Ranjan', 'Devanshu Khanna', 'Bayer Intellectual Property Gmbh', 'Guru Krishna Kumar', 'Pravin Anand', 'Nishchal Anand', 'Sanchith Shivakumar', 'Alembic Pharmaceuticals Ltd.', 'Saya Choudhary Kapur', 'Vivek\n                Ranjan', 'Devanshu Khanna', 'S. Ravindra Bhat', 'Sanjeev Sachdeva', 'S. Ravindra Bhat']","['COURT', 'PETITIONER', 'LAWYER', 'LAWYER', 'LAWYER', 'LAWYER', 'RESPONDENT', 'LAWYER', 'LAWYER', 'LAWYER', 'LAWYER', 'LAWYER', 'LAWYER', 'LAWYER', 'PETITIONER', 'LAWYER', 'LAWYER', 'LAWYER', 'LAWYER', 'RESPONDENT', 'LAWYER', 'LAWYER', 'LAWYER', 'JUDGE', 'JUDGE', 'JUDGE']"
 113,"In The High Court Of Kerala At Ernakulam           (Cr)
                                 Present
 
@@ -4593,7 +4593,7 @@ Other Present:
                                    Judgment
 
 
-"
+","[7, 136, 297, 580, 617, 653, 685, 729, 879, 1046, 1356]","[40, 152, 312, 596, 636, 664, 698, 860, 1010, 1056, 1372]","['High Court Of Kerala At Ernakulam', 'Alexander Thomas', 'C.P.Ashok Kumar', 'P. Radhakrishnan', 'Madhu Radhakrishnan', 'M.D. Joseph', 'Nelson Joseph', 'Sub Registrar\n              Thrithala,\n              Office Of The Sub Registrar, Thrithala 679534,\n              Palakkad District', 'Inspector General Of Registration\n                Department Of Registration, Vanchiyoor,\n                Thiruvananthpauram-695035', 'A.C.Vidhya', 'Alexander Thomas']","['COURT', 'JUDGE', 'PETITIONER', 'LAWYER', 'LAWYER', 'LAWYER', 'LAWYER', 'RESPONDENT', 'RESPONDENT', 'LAWYER', 'JUDGE']"
 114,"-: 1 :-
                                                                           R.P. Nos. 1399/2017
                                                                                  & 1401/2017
@@ -4653,7 +4653,7 @@ District Dewas.
                                      Order
 
 
-"
+","[198, 287, 328, 404, 615, 680, 746, 855, 963, 1169, 1380, 1453, 1499, 1562, 1625, 1687, 1798, 1906, 2143, 2221, 2295, 2341]","[244, 298, 350, 472, 623, 689, 758, 868, 1001, 1237, 1390, 1457, 1508, 1568, 1635, 1697, 1811, 1944, 2161, 2232, 2312, 2352]","['High Court Of Madhya Pradesh : Bench At Indore', 'Vivek Rusia', 'Amar Nath (Kesharwani)', 'Chief Executive Officer, Dewas Development Authority,\nDistrict Dewas', 'Umar Ali', 'Afsar Ali', 'Bismillah Bi', 'State of M.P.', 'Commissioner (Revenue) Ujjain Division', 'Chief Executive Officer, Dewas Development Authority,\nDistrict Dewas', 'Rehmat Ali', 'Kalu', 'Mumtaj Bi', 'Ramjan', 'Kubran Ali', 'Jaajid Ali', 'State of M.P.', 'Commissioner (Revenue) Ujjain Division', 'Aviral Vikas Khare', 'Aditya Garg', 'Rajeev Kumar Jain', 'K.L. Hardia']","['COURT', 'JUDGE', 'JUDGE', 'PETITIONER', 'RESPONDENT', 'RESPONDENT', 'RESPONDENT', 'RESPONDENT', 'RESPONDENT', 'PETITIONER', 'RESPONDENT', 'RESPONDENT', 'RESPONDENT', 'RESPONDENT', 'RESPONDENT', 'RESPONDENT', 'RESPONDENT', 'RESPONDENT', 'LAWYER', 'LAWYER', 'LAWYER', 'LAWYER']"
 115,"$~
 * In The High Court Of Delhi At New Delhi
 
@@ -4674,7 +4674,7 @@ District Dewas.
                             Judgement
 
 
-"
+","[12, 150, 260, 324, 443, 504]","[44, 161, 273, 338, 455, 515]","['High Court Of Delhi At New Delhi', 'Babli Dixit', 'S.N. Parashar', 'Satendra Kumar', 'Pankaj Gupta', 'Suman Bagga']","['COURT', 'PETITIONER', 'LAWYER', 'RESPONDENT', 'LAWYER', 'LAWYER']"
 116,"In The High Court At Calcutta
                       Constitutional Writ Jurisdiction
                                 Original Side
@@ -4718,7 +4718,7 @@ Judgment on                  : July 12, 2019.
  Samapti Chatterjee, J.
 
 
- "
+ ","[7, 163, 268, 350, 417, 483, 546, 609, 1025]","[29, 181, 282, 370, 437, 498, 563, 624, 1043]","['High Court At Calcutta', 'Samapti Chatterjee', 'Kalpana Poddar', 'State of West Bengal', 'Sarvapriyo Mukherjee', 'Sananda Ganguly', 'Avratosh Majumder', 'Prithu Dudheria', 'Samapti Chatterjee']","['COURT', 'JUDGE', 'PETITIONER', 'RESPONDENT', 'LAWYER', 'LAWYER', 'LAWYER', 'LAWYER', 'JUDGE']"
 117,"1
 
                                             In The Supreme Court Of India
@@ -4741,7 +4741,7 @@ Judgment on                  : July 12, 2019.
 
 
                                                         Order
-"
+","[54, 320, 532]","[76, 369, 547]","['Supreme Court Of India', 'Patiala Central Cooperative Bank Ltd\n     Patiala', 'Jaswinder Singh']","['COURT', 'PETITIONER', 'RESPONDENT']"
 118,"1
 
   ssp                                       pil80groupwithospil82 .doc
@@ -4875,7 +4875,7 @@ Judgment on                  : July 12, 2019.
   Coram : A.S.Oka And  A.K.Menon, Jj.                
 
 
- Date On Which Judgment"
+ Date On Which Judgment","[94, 582, 655, 810, 856, 896, 914, 977, 1040, 1087, 1134, 1164, 1201, 1255, 1305, 1384, 1556, 1630, 1960, 2034, 2178, 2218, 2260, 2324, 2370, 2406, 2432, 2458, 2494, 2632, 2695, 2767, 2811, 2844, 2881, 2916, 2962, 3042, 3178, 3254, 3453, 3490, 3523, 3544, 3586, 3622, 3649, 3675, 3713, 3902, 3979, 4044, 4082, 4117, 4151, 4207, 4220]","[128, 600, 720, 823, 868, 905, 923, 991, 1053, 1098, 1151, 1175, 1214, 1272, 1321, 1409, 1579, 1678, 1979, 2082, 2193, 2235, 2274, 2340, 2381, 2417, 2445, 2469, 2507, 2643, 2715, 2778, 2825, 2859, 2892, 2929, 2971, 3055, 3192, 3274, 3465, 3515, 3536, 3560, 3597, 3633, 3662, 3686, 3726, 3914, 3999, 4057, 4093, 4130, 4163, 4214, 4229]","['High Court Of Judicature At Bombay', 'Rajiv Mohan Mishra', 'City and Industrial Development\n  Corporation of Maharashtra Ltd.', 'Aspi   Chinoy', 'Datta   Mane', 'G.S.Hegde', 'G.S.Hegde', 'Shyamali Gadre', 'Sandeep Marne', 'A.Y.Sakhare', 'A.   B.\n  Vagyani', 'Shruti Vyas', 'Rohan Mirpury', 'Sanjay   Singhavi', 'Rahul\n  Kamerkar', 'Abhijeet   J.   Kandarkar', 'Bhausaheb Baban Khedkar', 'Maharashtra Industrial Development\n  Corporation', 'Krishna Jotiba Naik', 'Maharashtra Industrial Development\n  Corporation', 'Sanjay Singhavi', 'Rahul \n  Kamerkar', 'Shyamali Gadre', 'Sandeep V. Marne', 'A.Y.Sakhare', 'A.B.Vagyani', 'Manish Pabale', 'Shruti Vyas', 'Rohan Mirpury', 'Mayura Maru', 'State of Maharashtra', 'A.Y.Sakhare', 'A.B.\n  Vagyani', 'Manish   Pabale', 'Shruti Vyas', 'Rohan Mirpury', 'G.S.Hegde', 'Sandeep Marne', 'Vivek Velankar', 'State of Maharashtra', 'A.V.Anturkar', 'Prathamesh \n  B. Bhargude', 'Ranjit Shinde', 'Ajinkya \n  Udane', 'A.Y.Sakhare', 'A.B.Vagyani', 'Manish Pabale', 'Shruti Vyas', 'Rohan Mirpury', 'Janhit Manch', 'State of Maharashtra', 'Jalan Sandeep', 'A.Y.Sakhare', 'Geeta Shastri', 'Amit Shastri', 'A.S.Oka', 'A.K.Menon']","['COURT', 'PETITIONER', 'RESPONDENT', 'LAWYER', 'LAWYER', 'LAWYER', 'LAWYER', 'LAWYER', 'LAWYER', 'LAWYER', 'LAWYER', 'LAWYER', 'LAWYER', 'LAWYER', 'LAWYER', 'LAWYER', 'PETITIONER', 'RESPONDENT', 'PETITIONER', 'RESPONDENT', 'LAWYER', 'LAWYER', 'LAWYER', 'LAWYER', 'LAWYER', 'LAWYER', 'LAWYER', 'LAWYER', 'LAWYER', 'PETITIONER', 'RESPONDENT', 'LAWYER', 'LAWYER', 'LAWYER', 'LAWYER', 'LAWYER', 'LAWYER', 'LAWYER', 'PETITIONER', 'RESPONDENT', 'LAWYER', 'LAWYER', 'LAWYER', 'LAWYER', 'LAWYER', 'LAWYER', 'LAWYER', 'LAWYER', 'LAWYER', 'PETITIONER', 'RESPONDENT', 'LAWYER', 'LAWYER', 'LAWYER', 'LAWYER', 'JUDGE', 'JUDGE']"
 119,"Cra-D-568-Db of 2011                                           1
 
       In The High Court Of Punjab And Haryana At
@@ -4932,7 +4932,7 @@ Present:    Mr. A.P.S. Deol, Senior Advocate, with
 Rajiv Sharma, J.
 
 
-"
+","[79, 224, 370, 537, 692, 919, 964, 995, 1046, 1070, 1175, 1224, 1251, 1351, 1404, 1644]","[146, 235, 386, 557, 708, 931, 976, 1006, 1061, 1087, 1184, 1242, 1264, 1364, 1414, 1656]","['High Court Of Punjab And Haryana At\n                     Chandigarh', 'Shyam Singh', 'State of Haryana', 'Pardeep Soni @ Mintu', 'State of Haryana', 'Rajiv Sharma', 'Kuldip Singh', 'A.P.S. Deol', 'Vishal R. Lamba', 'Himmat Singh Deol', 'J.S. Bedi', 'Harsimranjeet Kaur', 'Shivansh Mahi', 'Shubhra Singh', 'J.S. Hooda', 'Rajiv Sharma']","['COURT', 'PETITIONER', 'RESPONDENT', 'PETITIONER', 'RESPONDENT', 'JUDGE', 'JUDGE', 'LAWYER', 'LAWYER', 'LAWYER', 'LAWYER', 'LAWYER', 'LAWYER', 'LAWYER', 'LAWYER', 'JUDGE']"
 120,"Carbp-196 of 2016.odt
 
 
@@ -5021,7 +5021,7 @@ Carbp/16/2016.
 Judgment
 
 
-"
+","[66, 373, 483, 573, 610, 649, 916, 1026, 1116, 1153, 1192, 1462, 1572, 1662, 1703, 1734, 2050, 2088, 2149, 2173, 2194, 2217, 2236, 2384, 2410, 2431, 2451, 2542, 2580, 2598, 2622, 2640, 2666, 2690, 2715, 2798, 2837, 2858, 2882, 2900, 2926, 2949, 2974, 3057, 3099, 3123, 3141, 3167, 3190, 3215, 3339]","[100, 385, 495, 595, 634, 659, 926, 1038, 1138, 1177, 1204, 1488, 1584, 1679, 1715, 1744, 2061, 2104, 2163, 2188, 2211, 2230, 2256, 2400, 2425, 2442, 2470, 2553, 2592, 2616, 2633, 2660, 2685, 2706, 2724, 2810, 2852, 2876, 2893, 2920, 2944, 2965, 2983, 3072, 3117, 3134, 3161, 3185, 3206, 3224, 3349]","['High Court Of Judicature At Bombay', 'Yogesh Mehra', 'Enercon GmbH', 'Wobben Properties Gmbh', 'Wind World India Limited', 'Ajay Mehra', 'Ajay Mehra', 'Enercon GmbH', 'Wobben Properties Gmbh', 'Wind World India Limited', 'Yogesh Mehra', 'Wind World (India) Limited', 'Enercon GmbH', 'Wobben Properties', 'Yogesh Mehra', 'Ajay Mehra', 'Shyam Mehta', 'Bimal Rajshekhar', 'Birendra Saraf', 'Ranjit Carvalho', 'Sanaya Dadachanji', 'Rohit\nLalwani', 'Manilal Kher Ambalal', 'Zal Andhyarujina', 'Kartikeya Desai', 'Karan Bhide', 'Asadali\nMazgaonwala', 'Aspi Chinoy', 'Karl Tamboly', 'Jehangir Jejeebhoy', 'Vivek Vashi', 'Kanika Sharma Goenka', 'Shaheda Madrasawala', 'Swati\nKhinvasara', 'Cyrus Jal', 'S. U. Kamdar', 'Sarosh Bharucha', 'Jehangir\nJejeebhoy', 'Vivek Vashi', 'Kanika Sharma Goenka', 'Shaheda\nMadraswala', 'Swati Khinvasara', 'Cyrus Jal', 'Janak Dwarkadas', 'Jehangir Jejeebhoy', 'Vivek\nVashi', 'Kanika Sharma Goenka', 'Shaheda Madraswala', 'Swati Khinvasara', 'Cyrus Jal', 'A.K. Menon']","['COURT', 'PETITIONER', 'RESPONDENT', 'RESPONDENT', 'RESPONDENT', 'RESPONDENT', 'PETITIONER', 'RESPONDENT', 'RESPONDENT', 'RESPONDENT', 'RESPONDENT', 'PETITIONER', 'RESPONDENT', 'RESPONDENT', 'RESPONDENT', 'RESPONDENT', 'LAWYER', 'LAWYER', 'LAWYER', 'LAWYER', 'LAWYER', 'LAWYER', 'LAWYER', 'LAWYER', 'LAWYER', 'LAWYER', 'LAWYER', 'LAWYER', 'LAWYER', 'LAWYER', 'LAWYER', 'LAWYER', 'LAWYER', 'LAWYER', 'LAWYER', 'LAWYER', 'LAWYER', 'LAWYER', 'LAWYER', 'LAWYER', 'LAWYER', 'LAWYER', 'LAWYER', 'LAWYER', 'LAWYER', 'LAWYER', 'LAWYER', 'LAWYER', 'LAWYER', 'LAWYER', 'JUDGE']"
 121,"dss                            1   Judgment-wp-10835-18-g.doc
 
         In The High Court Of Judicature At Bombay
@@ -5087,7 +5087,7 @@ Judgment
 
  Pronounced On : 3rd April, 2019. 
 
- Judgment"
+ Judgment","[78, 207, 290, 366, 420, 444, 466, 502, 520, 543, 580, 612, 635, 661, 709, 749, 777, 800, 839, 874, 895, 917, 936, 955, 1098, 1173, 1248, 1284, 1302, 1325, 1361, 1401, 1429, 1452, 1629, 1712, 1787, 2072, 2120, 2162, 2301, 2315]","[112, 210, 304, 380, 435, 460, 479, 514, 534, 554, 593, 626, 653, 675, 720, 762, 786, 811, 851, 889, 908, 930, 949, 968, 1101, 1187, 1261, 1296, 1316, 1336, 1372, 1414, 1438, 1463, 1632, 1726, 1803, 2088, 2134, 2179, 2310, 2326]","['High Court Of Judicature At Bombay', 'Xyz', 'Union of India', 'D.J. Khambatta', 'Naira Jejeebhoy', 'Pheroze F. Mehta', 'Gayatri Singh', 'Aditi Saxena', 'Meenaz Kakalia', 'Kranti L.C.', 'Anil C. Singh', 'Purnima Awasti', 'Anusha Pravin Amin', 'Geetika Gandhi', 'AB. Vagyani', 'Y.S. Khochare', 'P.P. More', 'Udayan Shah', 'Rajiv Chavan', 'Priyanka Chavan', 'Anupama Pawar', 'D.S. Shingade', 'Vinod Mahadik', 'Madhavi Patil', 'Xyz', 'Union of India', 'Gayatri Singh', 'Aditi Saxena', 'Meenaz Kakalia', 'Kranti L.C.', 'AB. Vagyani', 'Y.S. Khochare', 'P.P. More', 'Udayan Shah', 'Xyz', 'Union of India', 'Kuldeep U. Nikam', 'Poornima Awasthi', 'P.H. Kantharia', 'Deepali\n Patankar', 'A. S. Oka', 'M. S. Sonak']","['COURT', 'PETITIONER', 'RESPONDENT', 'LAWYER', 'LAWYER', 'LAWYER', 'LAWYER', 'LAWYER', 'LAWYER', 'LAWYER', 'LAWYER', 'LAWYER', 'LAWYER', 'LAWYER', 'LAWYER', 'LAWYER', 'LAWYER', 'LAWYER', 'LAWYER', 'LAWYER', 'LAWYER', 'LAWYER', 'LAWYER', 'LAWYER', 'PETITIONER', 'RESPONDENT', 'LAWYER', 'LAWYER', 'LAWYER', 'LAWYER', 'LAWYER', 'LAWYER', 'LAWYER', 'LAWYER', 'PETITIONER', 'RESPONDENT', 'LAWYER', 'LAWYER', 'LAWYER', 'LAWYER', 'JUDGE', 'JUDGE']"
 122,"In The High Court Of Kerala At Ernakulam
                              Present
            The Honourable Mr. Justice Anil K.Narendran
@@ -5130,7 +5130,7 @@ C.R.P.No.81 of 2021 Ernakulam District-682315.
  By Advs. 
 
  Sri.S.Sreekumar (Sr.) Smt.Soumiya C.D This Op (Civil) Having Come Up For Admission Along With C.R.P.No.81 Of 2021 On 09.04.2021 And Thereafter On 04.06.2021, 08.06.2021, 21.06.2021 And 30.06.2021 For Further Arguments, The Court On 13.07.2021 Delivered The Following:
- The Honourable Mr. Justice Anil K.Narendran Tuesday, The 13Th Day Of July 2021 / 22Nd Ashadha, 1943 Crp No. 81 Of 2021 Against The Common Order Dated 06.02.02021 In E.P.No.565/2020 In Os 163/1977 Of The I Additional District Court, Ernakulam Revision Petitioners/Judgment"
+ The Honourable Mr. Justice Anil K.Narendran Tuesday, The 13Th Day Of July 2021 / 22Nd Ashadha, 1943 Crp No. 81 Of 2021 Against The Common Order Dated 06.02.02021 In E.P.No.565/2020 In Os 163/1977 Of The I Additional District Court, Ernakulam Revision Petitioners/Judgment","[7, 116, 430, 577, 611, 638, 670, 799, 929, 1128, 1261, 1366, 1484, 1633, 1745, 1767, 2037]","[40, 132, 447, 588, 622, 648, 681, 813, 943, 1137, 1270, 1380, 1497, 1725, 1756, 1774, 2053]","['High Court Of Kerala At Ernakulam', 'Anil K.Narendran', 'George Varghese.P', 'P.Ravindran', 'Sreekumar S', 'N.Raghuraj', 'A.J.Abraham', 'K.I.Thankachan', 'Peter N Chacko', 'M.K.Geore', 'M.T.Issac', 'Saju P.Poulose', 'V.G.Kuriakose', 'District Educational Officer, Office Of The District Educational Officer,Ernaku- Lam-682011.', 'S.Sreekumar', 'Soumiya', 'Anil K.Narendran']","['COURT', 'JUDGE', 'PETITIONER', 'LAWYER', 'LAWYER', 'LAWYER', 'RESPONDENT', 'RESPONDENT', 'RESPONDENT', 'RESPONDENT', 'RESPONDENT', 'RESPONDENT', 'RESPONDENT', 'RESPONDENT', 'LAWYER', 'LAWYER', 'JUDGE']"
 123,"High Court Of Judicature At Allahabad, Lucknow Bench
  
  
@@ -5174,7 +5174,7 @@ Hon'ble Ritu Raj Awasthi,J.
 
 Hon'ble Virendra Kumar-II,J. 
 
-"
+","[0, 175, 213, 254, 269, 295, 309, 320, 458, 500, 541, 567, 580, 593, 673, 703]","[52, 184, 226, 268, 287, 308, 319, 337, 479, 513, 551, 579, 592, 617, 689, 720]","['High Court Of Judicature At Allahabad, Lucknow Bench', 'Rama Pasi', 'State Of U.P.', 'A.V.S. Chauhan', 'Manish Kumar Yadav', 'R B S Rathaur', 'S N Pandey', 'S.M. Mohsin Zaidi', 'Matauley @ Khushi Ram', 'State Of U.P.', 'Arun Sinha', 'Balram Singh', 'Dinesh Kumar', 'Manish Kumar Singh Yadav', 'Ritu Raj Awasthi', 'Virendra Kumar-II']","['COURT', 'PETITIONER', 'RESPONDENT', 'LAWYER', 'LAWYER', 'LAWYER', 'LAWYER', 'LAWYER', 'PETITIONER', 'RESPONDENT', 'LAWYER', 'LAWYER', 'LAWYER', 'LAWYER', 'JUDGE', 'JUDGE']"
 124,"High Court Of Judicature At Allahabad
  
  
@@ -5204,4 +5204,4 @@ Counsel for Respondent :- K.M. Tripathi,Krishna Mohan Tripathi,Sunil Kumar
 Hon'ble Rohit Ranjan Agarwal,J.
 
 
-"
+","[0, 176, 227, 286, 303, 353, 367, 390, 415]","[37, 206, 258, 300, 324, 366, 389, 401, 435]","['High Court Of Judicature At Allahabad', 'Reptakos Brett Company Limited', 'Utkarsh Granite Private Limited', 'Pankaj Agarwal', 'Akash Deep Srivastava', 'K.M. Tripathi', 'Krishna Mohan Tripathi', 'Sunil Kumar', 'Rohit Ranjan Agarwal']","['COURT', 'PETITIONER', 'RESPONDENT', 'LAWYER', 'LAWYER', 'LAWYER', 'LAWYER', 'LAWYER', 'JUDGE']"
