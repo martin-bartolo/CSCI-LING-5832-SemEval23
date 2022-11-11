@@ -1,4 +1,0 @@
-/finaldata/train_data.pt
-/finaldata/dev_data.pt
-/finaldata/train_labels.pkl
-/finaldata/dev_labels.pkl
