@@ -106,7 +106,7 @@ for i in range(len(train_tokenized["input_ids"])):# iterate through tokenized tr
         b_label = "B-" + train_label_list_clean[i][j]
         i_label = "I-" + train_label_list_clean[i][j]
         labels[start] = unique_labels[b_label]
-        labels[start+1:end] = [unique_labels[i_label]] * (end-start)
+        labels[start+1:end] = [unique_labels[i_label]] * (end-(start+1))
     train_labels.append(labels)
 
 # dev labels
@@ -127,7 +127,7 @@ for i in range(len(dev_tokenized["input_ids"])):# iterate through tokenized dev 
         b_label = "B-" + dev_label_list_clean[i][j]
         i_label = "I-" + dev_label_list_clean[i][j]
         labels[start] = unique_labels[b_label]
-        labels[start+1:end] = [unique_labels[i_label]] * (end-start)
+        labels[start+1:end] = [unique_labels[i_label]] * (end-(start+1))
     dev_labels.append(labels)
 
 df_train_labels = pd.DataFrame({"labels": pd.Series(train_labels)})
