@@ -60,8 +60,8 @@ for row in dev_df['overall_text'].values.tolist():
 train_tokenized = tf.keras.preprocessing.sequence.pad_sequences(train_tokenized, padding='post', value='<PAD>', maxlen=5379, dtype=object)
 dev_tokenized = tf.keras.preprocessing.sequence.pad_sequences(dev_tokenized, padding='post', value='<PAD>', maxlen=5379, dtype=object)
 
-df_train_tokenized = pd.DataFrame({"words": pd.Series(train_tokenized.tolist())})
-df_dev_tokenized = pd.DataFrame({"words": pd.Series(dev_tokenized.tolist())})
+df_train_tokenized = pd.DataFrame(train_tokenized.tolist())
+df_dev_tokenized = pd.DataFrame(dev_tokenized.tolist())
 
 # tokenize training entities
 train_entities_tokenized = []
@@ -140,11 +140,11 @@ for i in range(len(dev_tokenized)):
         if dev_tokenized[i][j] == "<PAD>":
             dev_labels[i][j] = 29
 
-df_train_labels = pd.DataFrame({"labels": pd.Series(train_labels)})
-df_dev_labels = pd.DataFrame({"labels": pd.Series(dev_labels)})
+df_train_labels = pd.DataFrame(train_labels)
+df_dev_labels = pd.DataFrame(dev_labels)
 
 # save stuff
-df_train_tokenized.to_csv('./finaldata/train_data_nltk.csv', index=False)
-df_dev_tokenized.to_csv('./finaldata/dev_data_nltk.csv', index=False)
-df_train_labels.to_csv('./finaldata/train_labels_nltk.csv', index=False)
-df_dev_labels.to_csv('./finaldata/dev_labels_nltk.csv', index=False)
+df_train_tokenized.to_csv('./finaldata/train_data_nltk.csv', index=False, header=False)
+df_dev_tokenized.to_csv('./finaldata/dev_data_nltk.csv', index=False, header=False)
+df_train_labels.to_csv('./finaldata/train_labels_nltk.csv', index=False, header=False)
+df_dev_labels.to_csv('./finaldata/dev_labels_nltk.csv', index=False, header=False)

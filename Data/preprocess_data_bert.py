@@ -1,7 +1,6 @@
 import pandas as pd
 from transformers import BertTokenizer
 import ast
-import torch
 import pickle
 
 # list of unique labels with ids
@@ -54,13 +53,11 @@ tokenizer = BertTokenizer.from_pretrained('bert-base-cased')
 train_tokenized = tokenizer(train_df['overall_text'].values.tolist(), padding='max_length', max_length=5379, return_tensors="pt")
 dev_tokenized = tokenizer(dev_df['overall_text'].values.tolist(), padding='longest', max_length=5379, return_tensors="pt")
 
-df_train_tokenized = pd.DataFrame({"input_ids": pd.Series(train_tokenized["input_ids"].numpy().tolist()),
-                                    "token_type_ids": pd.Series(train_tokenized["token_type_ids"].numpy().tolist()),
-                                    "attention_mask": pd.Series(train_tokenized["attention_mask"].numpy().tolist())})
+df_train_inputids = pd.DataFrame(train_tokenized["input_ids"].numpy().tolist())
+df_train_masks = pd.DataFrame(train_tokenized["attention_mask"].numpy().tolist())
 
-df_dev_tokenized = pd.DataFrame({"input_ids": pd.Series(dev_tokenized["input_ids"].numpy().tolist()),
-                                    "token_type_ids": pd.Series(dev_tokenized["token_type_ids"].numpy().tolist()),
-                                    "attention_mask": pd.Series(dev_tokenized["attention_mask"].numpy().tolist())})
+df_dev_inputids = pd.DataFrame(dev_tokenized["input_ids"].numpy().tolist())
+df_dev_masks = pd.DataFrame(dev_tokenized["attention_mask"].numpy().tolist())
 
 # tokenize training entities
 train_entities_tokenized = []
@@ -130,11 +127,28 @@ for i in range(len(dev_tokenized["input_ids"])):# iterate through tokenized dev 
         labels[start+1:end] = [unique_labels[i_label]] * (end-(start+1))
     dev_labels.append(labels)
 
-df_train_labels = pd.DataFrame({"labels": pd.Series(train_labels)})
-df_dev_labels = pd.DataFrame({"labels": pd.Series(dev_labels)})
+# go through and label pads
+for i in range(len(train_tokenized["input_ids"])):
+    print(i)
+    words = tokenizer.convert_ids_to_tokens(train_tokenized["input_ids"][i])
+    for j in range(len(train_tokenized["input_ids"][0])):
+        if words[j] in ["[PAD]", "[CLS]", "[SEP]"]:
+            train_labels[i][j] = -100
+
+for i in range(len(dev_tokenized["input_ids"])):
+    print(i)
+    words = tokenizer.convert_ids_to_tokens(dev_tokenized["input_ids"][i])
+    for j in range(len(dev_tokenized["input_ids"][0])):
+        if words[j] in ["[PAD]", "[CLS]", "[SEP]"]:
+            dev_labels[i][j] = -100
+            
+df_train_labels = pd.DataFrame(train_labels)
+df_dev_labels = pd.DataFrame(dev_labels)
 
 # save stuff
-df_train_tokenized.to_csv('./finaldata/train_data_bert.csv', index=False)
-df_dev_tokenized.to_csv('./finaldata/dev_data_bert.csv', index=False)
-df_train_labels.to_csv('./finaldata/train_labels_bert.csv', index=False)
-df_dev_labels.to_csv('./finaldata/dev_labels_bert.csv', index=False)
+df_train_inputids.to_csv('./finaldata/train_inputids_bert.csv', index=False, header=False)
+df_train_inputids.to_csv('./finaldata/dev_inputids_bert.csv', index=False, header=False)
+df_train_masks.to_csv('./finaldata/train_masks_bert.csv', index=False, header=False)
+df_dev_masks.to_csv('./finaldata/dev_masks_bert.csv', index=False, header=False)
+df_train_labels.to_csv('./finaldata/train_labels_bert.csv', index=False, header=False)
+df_dev_labels.to_csv('./finaldata/dev_labels_bert.csv', index=False, header=False)
