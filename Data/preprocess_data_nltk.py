@@ -57,8 +57,8 @@ for row in dev_df['overall_text'].values.tolist():
     dev_tokenized.append(wordpunct_tokenize(row))
 
 # pad dataframes (we set max lenth to 5379, the length of the longest text)
-train_tokenized = tf.keras.preprocessing.sequence.pad_sequences(train_tokenized, padding='post', value='<PAD>', maxlen=5379, dtype=object)
-dev_tokenized = tf.keras.preprocessing.sequence.pad_sequences(dev_tokenized, padding='post', value='<PAD>', maxlen=5379, dtype=object)
+train_tokenized = tf.keras.preprocessing.sequence.pad_sequences(train_tokenized, padding='post', truncating='post', value='<PAD>', maxlen=512, dtype=object)
+dev_tokenized = tf.keras.preprocessing.sequence.pad_sequences(dev_tokenized, padding='post', truncating='post', value='<PAD>', maxlen=512, dtype=object)
 
 df_train_tokenized = pd.DataFrame(train_tokenized.tolist())
 df_dev_tokenized = pd.DataFrame(dev_tokenized.tolist())

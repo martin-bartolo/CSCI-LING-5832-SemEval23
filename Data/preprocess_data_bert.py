@@ -50,8 +50,8 @@ for label in dev_label_list:
 tokenizer = BertTokenizer.from_pretrained('bert-base-cased')
 
 # tokenize dataframes (we set max lenth to 5379, the length of the longest text)
-train_tokenized = tokenizer(train_df['overall_text'].values.tolist(), padding='max_length', max_length=5379, return_tensors="pt")
-dev_tokenized = tokenizer(dev_df['overall_text'].values.tolist(), padding='longest', max_length=5379, return_tensors="pt")
+train_tokenized = tokenizer(train_df['overall_text'].values.tolist(), padding='max_length', max_length=512, truncation=True, return_tensors="pt")
+dev_tokenized = tokenizer(dev_df['overall_text'].values.tolist(), padding='longest', max_length=512, truncation=True, return_tensors="pt")
 
 df_train_inputids = pd.DataFrame(train_tokenized["input_ids"].numpy().tolist())
 df_train_masks = pd.DataFrame(train_tokenized["attention_mask"].numpy().tolist())
