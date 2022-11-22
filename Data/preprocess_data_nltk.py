@@ -1,8 +1,9 @@
 import pandas as pd
 from nltk.tokenize import wordpunct_tokenize
-import tensorflow as tf
 import ast
 import numpy as np
+import re
+import tensorflow as tf
 
 # list of unique labels with ids
 unique_labels = {"O": 0, "B-COURT": 1, "B-PETITIONER": 2, "B-RESPONDENT": 3, "B-JUDGE": 4, "B-LAWYER": 5, 
@@ -28,12 +29,36 @@ dev_df = pd.concat([dev_judgement_df, dev_preamble_df])
 train_entity_list = train_df['text'].values.tolist()
 train_entity_list_clean = []
 for entity in train_entity_list:
-    train_entity_list_clean.append(ast.literal_eval(entity))
+    entity_clean = entity.replace(".", ". ")
+    entity_clean = entity_clean.replace(",", ", ")
+    entity_clean = entity_clean.replace(")", ") ")
+    entity_clean = entity_clean.replace("(", "( ")
+    entity_clean = entity_clean.replace("[", "[ ")
+    entity_clean = entity_clean.replace("]", "] ")
+    entity_clean = entity_clean.replace("{", "{ ")
+    entity_clean = entity_clean.replace("}", "} ")
+    entity_clean = entity_clean.replace("'", "' ")
+    entity_clean = entity_clean.replace("‟", "‟ ")
+    entity_clean = entity_clean.replace("-", "- ")
+    entity_clean = re.sub(' +', ' ', entity_clean)
+    train_entity_list_clean.append(ast.literal_eval(entity_clean))
 
 dev_entity_list = dev_df['text'].values.tolist()
 dev_entity_list_clean = []
 for entity in dev_entity_list:
-    dev_entity_list_clean.append(ast.literal_eval(entity))
+    entity_clean = entity.replace(".", ". ")
+    entity_clean = entity_clean.replace(",", ", ")
+    entity_clean = entity_clean.replace(")", ") ")
+    entity_clean = entity_clean.replace("(", "( ")
+    entity_clean = entity_clean.replace("[", "[ ")
+    entity_clean = entity_clean.replace("]", "] ")
+    entity_clean = entity_clean.replace("{", "{ ")
+    entity_clean = entity_clean.replace("}", "} ")
+    entity_clean = entity_clean.replace("'", "' ")
+    entity_clean = entity_clean.replace("‟", "‟ ")
+    entity_clean = entity_clean.replace("-", "- ")
+    entity_clean = re.sub(' +', ' ', entity_clean)
+    dev_entity_list_clean.append(ast.literal_eval(entity_clean))
 
 train_label_list = train_df['label'].values.tolist()
 train_label_list_clean = []
@@ -47,13 +72,46 @@ for label in dev_label_list:
 
 # ---tokenize all the data using BertTokenizer--- #
 
+# fix bracket punctuation
+train_data_clean = []
+for row in train_df['overall_text'].values.tolist():
+    row_clean = row.replace(".", ". ")
+    row_clean = row_clean.replace(",", ", ")
+    row_clean = row_clean.replace(")", ") ")
+    row_clean = row_clean.replace("(", "( ")
+    row_clean = row_clean.replace("[", "[ ")
+    row_clean = row_clean.replace("]", "] ")
+    row_clean = row_clean.replace("{", "{ ")
+    row_clean = row_clean.replace("}", "} ")
+    row_clean = row_clean.replace("'", "' ")
+    row_clean = row_clean.replace("‟", "‟ ")
+    row_clean = row_clean.replace("-", "- ")
+    row_clean = re.sub(' +', ' ', row_clean)
+    train_data_clean.append(row_clean)
+
+dev_data_clean = []
+for row in dev_df['overall_text'].values.tolist():
+    row_clean = row.replace(".", ". ")
+    row_clean = row_clean.replace(",", ", ")
+    row_clean = row_clean.replace(")", ") ")
+    row_clean = row_clean.replace("(", "( ")
+    row_clean = row_clean.replace("[", "[ ")
+    row_clean = row_clean.replace("]", "] ")
+    row_clean = row_clean.replace("{", "{ ")
+    row_clean = row_clean.replace("}", "} ")
+    row_clean = row_clean.replace("'", "' ")
+    row_clean = row_clean.replace("‟", "‟ ")
+    row_clean = row_clean.replace("-", "- ")
+    row_clean = re.sub(' +', ' ', row_clean)
+    dev_data_clean.append(row_clean)
+    
 # tokenize dataframes 
 train_tokenized = []
-for row in train_df['overall_text'].values.tolist():
+for row in train_data_clean:
     train_tokenized.append(wordpunct_tokenize(row))
 
 dev_tokenized = []
-for row in dev_df['overall_text'].values.tolist():
+for row in dev_data_clean:
     dev_tokenized.append(wordpunct_tokenize(row))
 
 # pad dataframes (we set max lenth to 5379, the length of the longest text)
@@ -82,7 +140,7 @@ for row_entities in dev_entity_list_clean:# iterate through row
         continue
     row_entities_tokenized = []
     for entity in row_entities:# tokenize entities in current row
-        row_entities_tokenized.append(wordpunct_tokenize(entity))
+        row_entities_tokenized.append(wordpunct_tokenize(entity))# remove the x 
     dev_entities_tokenized.append(row_entities_tokenized)# append tokenized entities to list
 
 # ---create labels--- #
@@ -90,17 +148,18 @@ for row_entities in dev_entity_list_clean:# iterate through row
 # training labels
 train_labels = []
 for i in range(len(train_tokenized)):# iterate through tokenized training texts
-    print(i)
-    labels = [0] * len(train_tokenized[0]) # set labels to O character (label for words which are not any entity)
+    labels = [0] * len(train_tokenized[i]) # set labels to O character (label for words which are not any entity)
     for j in range(len(train_entities_tokenized[i])):
         # get start and end indices for where entity occurs in text
-        start = 0
-        end = 0
+        start = -1
+        end = -1
         for s in (k for k, e in enumerate(train_tokenized[i]) if e==train_entities_tokenized[i][j][0]):
             if np.array_equal(train_tokenized[i][s:s+len(train_entities_tokenized[i][j])], train_entities_tokenized[i][j]):
                 start = s
-                end = s + len(train_entities_tokenized[i][j]) - 1
+                end = s + len(train_entities_tokenized[i][j])
                 break
+        if(start == -1):
+            continue
         # assign labels according to start index
         b_label = "B-" + train_label_list_clean[i][j]
         i_label = "I-" + train_label_list_clean[i][j]
@@ -108,20 +167,22 @@ for i in range(len(train_tokenized)):# iterate through tokenized training texts
         labels[start+1:end] = [unique_labels[i_label]] * (end-(start+1))
     train_labels.append(labels)
 
+
 # dev labels
 dev_labels = []
 for i in range(len(dev_tokenized)):# iterate through tokenized training texts
-    print(i)
-    labels = [0] * len(dev_tokenized[0]) # set labels to O character (label for words which are not any entity)
+    labels = [0] * len(dev_tokenized[i]) # set labels to O character (label for words which are not any entity)
     for j in range(len(dev_entities_tokenized[i])):
         # get start and end indices for where entity occurs in text
-        start = 0
-        end = 0
+        start = -1
+        end = -1
         for s in (k for k, e in enumerate(dev_tokenized[i]) if e==dev_entities_tokenized[i][j][0]):
             if np.array_equal(dev_tokenized[i][s:s+len(dev_entities_tokenized[i][j])], dev_entities_tokenized[i][j]):
                 start = s
-                end = s + len(dev_entities_tokenized[i][j]) - 1
+                end = s + len(dev_entities_tokenized[i][j])
                 break
+        if(start == -1):
+            continue
         # assign labels according to start index
         b_label = "B-" + dev_label_list_clean[i][j]
         i_label = "I-" + dev_label_list_clean[i][j]
