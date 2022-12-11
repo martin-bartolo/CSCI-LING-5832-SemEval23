@@ -1,3 +1,9 @@
+#################################################
+# Takes data from orignal json files and processes 
+# it into csv files which we will use to pull the 
+# data for preprocessing
+##################################################
+
 import pandas as pd
 
 # read the data in
