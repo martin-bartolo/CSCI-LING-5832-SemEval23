@@ -1,7 +1,11 @@
+##################################################
+# Reads data from csv, tokenizes it using BERT and
+# aligns labels with each token
+##################################################
+
 import pandas as pd
-from transformers import BertTokenizer
+from transformers import BertTokenizerFast
 import ast
-import pickle
 
 # list of unique labels with ids
 unique_labels = {"O": 0, "B-COURT": 1, "B-PETITIONER": 2, "B-RESPONDENT": 3, "B-JUDGE": 4, "B-LAWYER": 5, 
@@ -9,7 +13,7 @@ unique_labels = {"O": 0, "B-COURT": 1, "B-PETITIONER": 2, "B-RESPONDENT": 3, "B-
                 "B-CASE_NUMBER": 12, "B-WITNESS": 13, "B-OTHER_PERSON": 14, "I-COURT": 15, "I-PETITIONER": 16, 
                 "I-RESPONDENT": 17, "I-JUDGE": 18, "I-LAWYER": 19, "I-DATE": 20, "I-ORG": 21, "I-GPE": 22, 
                 "I-STATUTE": 23, "I-PROVISION": 24, "I-PRECEDENT": 25, "I-CASE_NUMBER": 26, "I-WITNESS": 27, 
-                "I-OTHER_PERSON": 28}
+                "I-OTHER_PERSON": 28, "[PAD]": 29}
 
 # read the data in
 train_judgement_df = pd.read_csv('./cleandata/NER_TRAIN_JUDGEMENT.csv')
@@ -47,11 +51,11 @@ for label in dev_label_list:
 # ---tokenize all the data using BertTokenizer--- #
 
 # get tokenizer from Bert
-tokenizer = BertTokenizer.from_pretrained('bert-base-cased')
+tokenizer = BertTokenizerFast.from_pretrained('prajjwal1/bert-tiny')
 
 # tokenize dataframes (we set max lenth to 5379, the length of the longest text)
 train_tokenized = tokenizer(train_df['overall_text'].values.tolist(), padding='max_length', max_length=512, truncation=True, return_tensors="pt")
-dev_tokenized = tokenizer(dev_df['overall_text'].values.tolist(), padding='longest', max_length=512, truncation=True, return_tensors="pt")
+dev_tokenized = tokenizer(dev_df['overall_text'].values.tolist(), padding='max_length', max_length=512, truncation=True, return_tensors="pt")
 
 df_train_inputids = pd.DataFrame(train_tokenized["input_ids"].numpy().tolist())
 df_train_masks = pd.DataFrame(train_tokenized["attention_mask"].numpy().tolist())
@@ -92,13 +96,15 @@ for i in range(len(train_tokenized["input_ids"])):# iterate through tokenized tr
     labels = [0] * len(train_tokenized["input_ids"][0]) # set labels to O character (label for words which are not any entity)
     for j in range(len(train_entities_tokenized[i])):
         # get start and end indices for where entity occurs in text
-        start = 0
-        end = 0
+        start = -1
+        end = -1
         for s in (k for k, e in enumerate(tokenizer.convert_ids_to_tokens(train_tokenized["input_ids"][i])) if e==tokenizer.convert_ids_to_tokens(train_entities_tokenized[i][j])[0]):
             if tokenizer.convert_ids_to_tokens(train_tokenized["input_ids"][i])[s:s+len(train_entities_tokenized[i][j])] == tokenizer.convert_ids_to_tokens(train_entities_tokenized[i][j]):
                 start = s
-                end = s + len(train_entities_tokenized[i][j]) - 1
+                end = s + len(train_entities_tokenized[i][j])
                 break
+        if(start == -1):# skip if not found
+            continue
         # assign labels according to start index
         b_label = "B-" + train_label_list_clean[i][j]
         i_label = "I-" + train_label_list_clean[i][j]
@@ -113,13 +119,15 @@ for i in range(len(dev_tokenized["input_ids"])):# iterate through tokenized dev 
     labels = [0] * len(dev_tokenized["input_ids"][0]) # set labels to O character (label for words which are not any entity)
     for j in range(len(dev_entities_tokenized[i])):
         # get start and end indices for where entity occurs in text
-        start = 0
-        end = 0
+        start = -1
+        end = -1
         for s in (k for k, e in enumerate(tokenizer.convert_ids_to_tokens(dev_tokenized["input_ids"][i])) if e==tokenizer.convert_ids_to_tokens(dev_entities_tokenized[i][j])[0]):
             if tokenizer.convert_ids_to_tokens(dev_tokenized["input_ids"][i])[s:s+len(dev_entities_tokenized[i][j])] == tokenizer.convert_ids_to_tokens(dev_entities_tokenized[i][j]):
                 start = s
-                end = s + len(dev_entities_tokenized[i][j]) - 1
+                end = s + len(dev_entities_tokenized[i][j])
                 break
+        if(start == -1):# skip if not found
+            continue
         # assign labels according to start index
         b_label = "B-" + dev_label_list_clean[i][j]
         i_label = "I-" + dev_label_list_clean[i][j]
@@ -133,22 +141,22 @@ for i in range(len(train_tokenized["input_ids"])):
     words = tokenizer.convert_ids_to_tokens(train_tokenized["input_ids"][i])
     for j in range(len(train_tokenized["input_ids"][0])):
         if words[j] in ["[PAD]", "[CLS]", "[SEP]"]:
-            train_labels[i][j] = -100
+            train_labels[i][j] = 29
 
 for i in range(len(dev_tokenized["input_ids"])):
     print(i)
     words = tokenizer.convert_ids_to_tokens(dev_tokenized["input_ids"][i])
     for j in range(len(dev_tokenized["input_ids"][0])):
         if words[j] in ["[PAD]", "[CLS]", "[SEP]"]:
-            dev_labels[i][j] = -100
-            
+            dev_labels[i][j] = 29
+
 df_train_labels = pd.DataFrame(train_labels)
 df_dev_labels = pd.DataFrame(dev_labels)
 
 # save stuff
 df_train_inputids.to_csv('./finaldata/train_inputids_bert.csv', index=False, header=False)
-df_train_inputids.to_csv('./finaldata/dev_inputids_bert.csv', index=False, header=False)
 df_train_masks.to_csv('./finaldata/train_masks_bert.csv', index=False, header=False)
-df_dev_masks.to_csv('./finaldata/dev_masks_bert.csv', index=False, header=False)
 df_train_labels.to_csv('./finaldata/train_labels_bert.csv', index=False, header=False)
+df_dev_inputids.to_csv('./finaldata/dev_inputids_bert.csv', index=False, header=False)
+df_dev_masks.to_csv('./finaldata/dev_masks_bert.csv', index=False, header=False)
 df_dev_labels.to_csv('./finaldata/dev_labels_bert.csv', index=False, header=False)

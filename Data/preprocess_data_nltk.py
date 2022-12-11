@@ -1,3 +1,8 @@
+##################################################
+# Reads data from csv, tokenizes it using NLTK and
+# aligns labels with each token
+##################################################
+
 import pandas as pd
 from nltk.tokenize import wordpunct_tokenize
 import ast
@@ -11,7 +16,7 @@ unique_labels = {"O": 0, "B-COURT": 1, "B-PETITIONER": 2, "B-RESPONDENT": 3, "B-
                 "B-CASE_NUMBER": 12, "B-WITNESS": 13, "B-OTHER_PERSON": 14, "I-COURT": 15, "I-PETITIONER": 16, 
                 "I-RESPONDENT": 17, "I-JUDGE": 18, "I-LAWYER": 19, "I-DATE": 20, "I-ORG": 21, "I-GPE": 22, 
                 "I-STATUTE": 23, "I-PROVISION": 24, "I-PRECEDENT": 25, "I-CASE_NUMBER": 26, "I-WITNESS": 27, 
-                "I-OTHER_PERSON": 28, "PAD":29}
+                "I-OTHER_PERSON": 28, "<PAD>":29}
 
 # read the data in
 train_judgement_df = pd.read_csv('./cleandata/NER_TRAIN_JUDGEMENT.csv')
@@ -115,8 +120,8 @@ for row in dev_data_clean:
     dev_tokenized.append(wordpunct_tokenize(row))
 
 # pad dataframes (we set max lenth to 5379, the length of the longest text)
-train_tokenized = tf.keras.preprocessing.sequence.pad_sequences(train_tokenized, padding='post', truncating='post', value='<PAD>', maxlen=512, dtype=object)
-dev_tokenized = tf.keras.preprocessing.sequence.pad_sequences(dev_tokenized, padding='post', truncating='post', value='<PAD>', maxlen=512, dtype=object)
+train_tokenized = tf.keras.preprocessing.sequence.pad_sequences(train_tokenized, padding='post', truncating='post', value='<PAD>', maxlen=5379, dtype=object)
+dev_tokenized = tf.keras.preprocessing.sequence.pad_sequences(dev_tokenized, padding='post', truncating='post', value='<PAD>', maxlen=5379, dtype=object)
 
 df_train_tokenized = pd.DataFrame(train_tokenized.tolist())
 df_dev_tokenized = pd.DataFrame(dev_tokenized.tolist())
